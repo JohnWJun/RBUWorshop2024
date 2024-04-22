@@ -22,30 +22,20 @@ export default function Home() {
         /> 
       
       </div>
-        <h1>2024 Global Marketing Meeting <br/>In Japan</h1>
+        <h1>2024 RBU Workshop</h1>
         
         
   
       </div>
       <div className={styles.upperMenubar}>
       
-      <button className={styles.marketo}>  
-      <Link href="/training/introduction" title="Marketo Training Session">
-      <Image
-          src="/Marketo_logo.png"
-          alt="Marketo Logo"
-          width={70}
-          height={30}
-          priority
-        />
-        </Link>
-        </button>
+      
 
         <button className={styles.vote}> 
       <Link href="/vote" title="Vote for Best Performance Award Winner">
       <Image
-          src="/vote.svg"
-          alt="vote Icon"
+          src="/survey.png"
+          alt="survey Icon"
           width={50}
           height={50}
           priority
@@ -61,9 +51,9 @@ export default function Home() {
           className={styles.card}
         >
           <h2>
-            Presentation <span>-&gt;</span>
+            Education<span>-&gt;</span>
           </h2>
-          <p>ebooks for the meeting</p>
+          <p>PPTs and Educational resources</p>
         </Link>
 
         <Link
@@ -73,18 +63,18 @@ export default function Home() {
           <h2>
             Schedule <span>-&gt;</span>
           </h2>
-          <p>Check the agendas & schedule</p>
+          <p>Check the schedule</p>
         </Link>
 
-        <Link
+        {/* <Link
           href="/meal"
           className={styles.card}
         >
           <h2>
-            Lunch Menu <span>-&gt;</span>
+            Meal <span>-&gt;</span>
           </h2>
-          <p>Lunch menu</p>
-        </Link>
+          <p>Lunch & Dinner menu</p>
+        </Link> */}
 
         <Link
           href="/location"
@@ -96,7 +86,7 @@ export default function Home() {
           <p>Accommodation, venues, and access</p>
         </Link>
 
-        <Link
+        {/* <Link
           href="/quiz"
           className={styles.card}
         >
@@ -104,19 +94,19 @@ export default function Home() {
             Quiz<span>-&gt;</span>
           </h2>
           <p>Test your understanding</p>
-        </Link>
+        </Link> */}
 
         <Link
           href="/entertainment"
           className={styles.card}
         >
           <h2>
-            Entertainment<span>-&gt;</span>
+            Team Building<span>-&gt;</span>
           </h2>
-          <p>After Meeting Activities & Dining</p>
+          <p>work on the missions with your team to get the prize</p>
         </Link>
 
-        <Link
+        {/* <Link
           href="/qnA"
           className={styles.card}
         >
@@ -124,9 +114,9 @@ export default function Home() {
             Q&A<span>-&gt;</span>
           </h2>
           <p>Leave any questions here</p>
-        </Link>
+        </Link> */}
 
-        <Link
+        {/* <Link
           href="/survey"
           className={styles.card}
         >
@@ -134,7 +124,7 @@ export default function Home() {
             Survey<span>-&gt;</span>
           </h2>
           <p>Please leave a meaningful message for improvement</p>
-        </Link>
+        </Link> */}
       </div>
       
        <div className={styles.footer}>
