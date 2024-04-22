@@ -1,0 +1,376 @@
+.modalBackground {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: block;
+}
+
+.modal {
+    background: #ffffff;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 90%;
+    max-width: 80vw;
+    min-width: 260px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow: hidden;
+}
+.group{
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+@media screen and (min-height: 750px){
+    .modal{max-height: 800px;}
+}
+@media screen and (max-height: 850px){
+    .modal{max-height: 700px;}
+}
+@media screen and (max-height: 800px){
+    .modal{max-height: 700px;}
+}
+@media screen and (max-height: 730px){
+    .modal{max-height: 600px;}
+} */
+
+.modalHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 36px 80px 20px;
+    font-size: 31px;
+    color: dimgrey;
+    font-weight: bold;
+}
+
+
+.modalBody {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+}
+.modalBody h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.modalBody h2{
+    font-size: 30px;
+    text-align: center;
+}
+.point{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+/* width */
+.modalBody::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .modalBody::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .modalBody::-webkit-scrollbar-thumb {
+    background: #d3f4ed; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .modalBody::-webkit-scrollbar-thumb:hover {
+    background: #e3e3e3; 
+  }
+
+
+
+.modalFooter {
+    padding: 24px 80px;
+}
+
+.seeMoreButtonSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seeMoreButton{
+    background:  none;
+    border: none;
+    padding: 20px;
+}
+
+.seeMoreButton:hover{
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.actionButton {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(15, 20, 25);
+    color: white;
+    font-size: 17px;
+}
+.actionButton:disabled {
+    opacity: 0.5;
+}
+.actionButton:hover {
+    background-color: rgb(39,44,48);
+}
+
+.closeButton {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeButton:hover {
+    background-color: rgba(15,20,25, 0.1);
+}
+
+.error{
+    font-weight: bold;
+    color: red;
+}
+.iframeBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iframeBox iframe{
+    width: 100%;
+    height: 1600px;
+    border: none;
+    
+}
+.iframeBoxLong{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iframeBoxLong iframe{
+    width: 100%;
+    height: 4500px;
+    border: none;
+}
+.iframeBox button{
+    background:  none;
+    border: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframeBoxLong button{
+    background:  none;
+    border: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframeBoxLong button:hover{
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+.iframeBox button:hover{
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 912px){
+    .modalBackground {
+        position: fixed;
+    }
+    .modal{
+        top: 15%;
+        position: fixed;
+    }
+    .modalBody {
+        padding: 0 10px;
+    }
+    .iframeBox iframe{
+        height: 5000px;
+    }
+    .imgBoxVer{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .modal {
+        min-width: 500px;
+    }
+    /* .iframeBox iframe{
+        height: 5000px;
+    } */
+    .iframeBoxLong{
+        width: 100%;
+    }
+    .iframeBox iframe{
+        height: 2200px;
+    }
+    .iframeBoxLong iframe{
+        height: 9000px;
+    }
+    .imageLong{
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        width: 50%;
+        height: 50%;
+    }
+    .image{
+        width: 50%;
+        height: 50%;
+    }
+}
+@media screen and (max-width: 578px){
+    .modal {
+        top: 10%;
+        min-width: 200px;
+        max-height: 700px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .modal{
+        top: 8%;
+        position: fixed;
+        max-height: 570px;
+    }
+    .modalBody {
+        font-size: 40%;
+
+    }
+    .postUserSection {
+        display: none;
+    }
+}
+@media screen and (max-width: 578px) and (max-height:720px){
+    .modal{
+        top: 8%;
+        position: fixed;
+        max-height: 570px;
+    }
+    .modalBody {
+        font-size: 40%;
+
+    }
+    .postUserSection {
+        display: none;
+    }
+}
+@media screen and (max-width: 360px) and (max-height:740px){
+    .modal{
+        top: 8%;
+        position: fixed;
+        max-height: 570px;
+    }
+    .modalBody {
+        font-size: 40%;
+
+    }
+    .postUserSection {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) and (max-height:600px){
+    .modal{
+        top: 8%;
+        position: fixed;
+        max-height: 500px;
+    }
+    .modalBody {
+        font-size: 40%;
+
+    }
+    .postUserSection {
+        display: none;
+    }
+}
+
+.modalFooter {
+    padding: 24px 80px;
+}
+.seeMoreButtonSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seeMoreButton{
+    background:  none;
+    border: none;
+    padding: 20px;
+}
+
+.seeMoreButton:hover{
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.group h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.group li{
+    margin-left: 20px;
+}
+.description{
+    margin-bottom: 20px;
+}
+.imgBoxVer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgBoxHor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

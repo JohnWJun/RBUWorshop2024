@@ -1,5 +1,6 @@
 "use client";
 import {usePathname} from 'next/navigation';
+import { useState } from 'react';
 import style from '@/app/entertainment/entertainment.module.css';
 import BackButton from '@/app/_component/BackButton';
 import Image from 'next/image';
@@ -7,17 +8,18 @@ import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} 
 import Link from "next/link";
 
 export default function Entertainment() {
-    const pathname = usePathname();
-    const parts = pathname.split("/"); 
-    const title = parts[parts.length - 2];
-
-    console.log(title);
-
+   
+    const [key1, setKey1] = useState('');
+    const [key2, setKey2] = useState('');
+    const [key3, setKey3] = useState('');
+    
+    
+    
     return (
     <div className={style.main}>
          <div className={style.header}>
                     <BackButton/>
-                    <h1>2024 Global Marketing Meeting <br/>Entertainment</h1>
+                    <h1>Team Building Missions</h1>
                         <Image
                     className={style.logo}
                     src="/parksystemsLogo.svg"
@@ -37,33 +39,42 @@ export default function Entertainment() {
                 </div>
 
                 <div className={style.group}>
-                <h5>Group A</h5>
+                <h5>Team A</h5>
                 Insu Kim, Xiaowei Tian, Yuya Wagatsuma, Kenneth Kang, Hyein Kim, Katie Yang, Raina Lee, Elizabeth Martinez, and Caleb Chu 
                 </div>
 
                 <div className={style.group}>
-                <h5>Group B</h5>
+                <h5>Team B</h5>
                 Takahiro Fujimoto, Shin Matsuda, Yi-Chen Lu, Haichao Guo, Katja Kiffner, Alejandro Bonilla, Brian Kim, Vamsi Bendalam, and Peter Park
                 </div>
 
                 <div className={style.group}>
-                <h5>Group C</h5>
+                <h5>Team C</h5>
+                Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
+                </div>
+
+                <div className={style.group}>
+                <h5>Team D</h5>
+                Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
+                </div>
+
+                <div className={style.group}>
+                <h5>Team E</h5>
                 Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
                 </div>
             </div>
             <br/>
             <br/>
-            <h3>Day 1: Welcome Dinner</h3>
-            <div className={style.bodyComponents}>
-
-                <h5><a href='https://tabelog.com/tokyo/A1302/A130201/13156146/'>Okonomiyaki and Teppanyaki Osaka Messe Bear Tokyo​</a>​</h5>
-                <div className={style.bodyComponents}>
-                <p>Menu:</p> 
-                <h5>Okonomiyaki</h5>
-                </div>
-                <Link href="https://maps.app.goo.gl/nHjjdge4TFXVtsaL6">
-                <strong>Address:</strong> 100-6290Marunouchi1-11-1, Pacific Century Place Marunouchi B1F
-                
+            <h3>게임 플레이 룰</h3>
+            <h5>
+                1. 지도를 확인하며 미션클리어를 위해 해당 위치로 이동!<br/><br/>
+                2. 해당 위치에서 QR코드를 스캔하여 해당하는 미션을 수행!<br/><br/>
+                3. 해당 웹 페이지에서 정답을 제출하거나 위치해있는 요원에게 미션 성공 여부를 심사받는다.<br/><br/>
+                4. 미션 성공 메세지를 받으면 이를 캡쳐하여 사진첩에 저장한다.<br/><br/>
+            </h5>
+            <br/>
+            <br/>
+            <h3>Mission Map
                 <Image
                         className={style.icon}
                         src="/map.png"
@@ -71,13 +82,18 @@ export default function Entertainment() {
                         width={20}
                         height={20}
                         priority
-                        />
-                </Link>
+                        /></h3>
+            
+            <h5>
+
+            </h5>
+            <div className={style.bodyComponents}>
+                
                 <div className={style.imgBox}>
                     <Image
                     className={style.image}
-                    src="/dinnerDay1.jpg"
-                    alt="Dinner Day1"
+                    src="/missionMap.jpg"
+                    alt="Mission Map"
                     width={700}
                     height={500}
                     priority
@@ -86,66 +102,47 @@ export default function Entertainment() {
 
                 
             </div>
-            <h3>Day 2: Shibuya Sky</h3>
+            <h3>Mission 1</h3>
             <div className={style.bodyComponents}>
-            <h5>Dinner Site: <a href='https://hyoto.jp/menu/%e9%a3%b2%e3%81%bf%e6%94%be%e9%a1%8c%e4%bb%98%e3%81%8d-%e4%ba%ac%e9%83%bd%e3%81%bd%e3%83%bc%e3%81%8f-%e5%87%ba%e6%b1%81%e3%81%97%e3%82%83%e3%81%b6%e4%bc%9a%e5%b8%ad-%e7%b4%ab%e8%8d%89/'>Hyoto Shibuya​</a>​</h5>
-                <div className={style.bodyComponents}>
-                <h5>Kaiseki (traditional multi-course Japanese dinner)</h5>
-                <p>Menu: </p>
-                <h5>- Brand Pork Dashi Shabu Kaiseki Murasaki</h5>
-                <h5>- Vegan Kaiseki</h5>​
-                <Link href="https://maps.app.goo.gl/trkTYAS8zb2TJPU57">
-                <strong>Address:</strong> Kyoto Hyoto Shabu Shabu Shibuya, 東急プラザ渋谷（渋谷フクラス 7F 1 Chome-2-3 Dogenzaka, Shibuya City, Tokyo 150-0043, Japan
-                <Image
-                        className={style.icon}
-                        src="/map.png"
-                        alt="map icon"
-                        width={20}
-                        height={20}
-                        priority
-                        />
-                </Link>
-                </div>
-                <div className={style.imgBox}>
-                    <Image
-                    className={style.image}
-                    src="/dinnerDay2.png"
-                    alt="Dinner Day2"
-                    width={700}
-                    height={500}
-                    priority
-                    />
-                    </div>
-                    
-                <h5><a href='https://www.shibuya-scramble-square.com.e.apy.hp.transer.com/sky/'>Shibuya Sky</a></h5>
-                <strong>Admission time:</strong> 19:40-20:00​<br/>
-                <strong>Schedule:</strong> ~21:30
-                <div className={style.imgBox}>
-                    <Image
-                    className={style.image}
-                    src="/ShybuyaSky.png"
-                    alt="Shybuya Sky"
-                    width={900}
-                    height={300}
-                    priority
-                    />
-                </div>
-                <Link href="https://maps.app.goo.gl/2xpUvWi59E5iQKqs8">
-                <strong>Address:</strong> 150-0002Shibuya2-24-12 Shibuya
-                <Image
-                        className={style.icon}
-                        src="/map.png"
-                        alt="map icon"
-                        width={20}
-                        height={20}
-                        priority
-                        />
-                </Link>
-
+            <h2>틱톡 첼린지</h2>
+            <h5>도전하고자 하는 댄스 영상을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>
                     
             </div>
             <br/>
             <br/>
+            <h3>Mission 2</h3>
+            <div className={style.bodyComponents}>
+            <h2>영화 대사 듣고 영화 맞추기</h2>
+            <h5>제한시간안에 5개의 영화를 모두 맞추면 미션 성공!</h5>  
+            </div>
+            <br/>
+            <br/>
+            <h3>Mission 3</h3>
+            <div className={style.bodyComponents}>
+            <h2>Quiz 맞추기</h2>
+            <h5>앞에 들었던 강의를 떠올리며 팀원과 상의하여 Quiz를 풀고 80점이상 맞으면 미션 성공!</h5>  
+            </div>
+            <br/>
+            <br/>
+            <h3>Mission 4</h3>
+            <div className={style.bodyComponents}>
+            <h2>노래 10초 듣고 노래 맞추기</h2>
+            <h5>제한시간안에 5개의 노래를 모두 맞추면 미션 성공!</h5>  
+            </div>
+            <br/>
+            <br/>
+            <h3>Mission 5</h3>
+            <div className={style.bodyComponents}>
+            <h2>영화 대사 듣고 영화 맞추기</h2>
+            <h5>제한시간안에 5개의 영화를 모두 맞추면 미션 성공!</h5>  
+            </div>
+            <br/>
+            <br/>
+            <h3>Mission 6</h3>
+            <div className={style.bodyComponents}>
+            <h2>영화 대사 듣고 영화 맞추기</h2>
+            <h5>제한시간안에 5개의 영화를 모두 맞추면 미션 성공!</h5>  
+            </div>
             <h5>Schedule:</h5>
             <br/>
             <br/>

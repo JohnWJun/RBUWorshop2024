@@ -2,11 +2,14 @@
     background: none;
     border: none;
     position: fixed;
+    border-radius: 50px;
     left: 2%;
     top: 5%;
+    padding: 10px;
 }
 .backButton:hover{
     cursor: pointer;
+    
     background-color: azure;
 }
 @media (max-width: 700px) {

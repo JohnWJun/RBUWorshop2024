@@ -11,7 +11,6 @@
     width: 100%;
 }
 .main iframe{
-    margin-top: 200px;
     width: 100%;
     height: 1000px;
     border: none;
@@ -91,6 +90,53 @@
 }
 .icon{
     margin-left: 5px;
+}
+.mission{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mission h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(3, 59, 143);
+}
+.mission h5 {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.passcode{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.videoBox{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid  rgb(239, 243, 244);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height: width) */
+}
+.videoBox iframe {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 700px) {

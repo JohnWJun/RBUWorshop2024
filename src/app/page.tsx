@@ -103,7 +103,7 @@ export default function Home() {
           <h2>
             Team Building<span>-&gt;</span>
           </h2>
-          <p>work on the missions with your team to get the prize</p>
+          <p>Work on the missions with your team to get the prize</p>
         </Link>
 
         {/* <Link
@@ -133,67 +133,17 @@ export default function Home() {
         <div className={styles.contact}>
           <p><strong>Cherie Jung:</strong> +8210 6573 9295</p>
           
-          <Image
-          className={styles.icon}
-          src="/kakaoIcon.png"
-          alt="Kakao"
-          width={20}
-          height={20}
-          priority
-        />
-        <div className={styles.kaKao}>
-        <Image
-          src="/cherieKakao.png"
-          alt="cherie Kakao"
-          width={340}
-          height={400}
-          priority
-        />
-        </div>
         </div>
         <div className={styles.contact}>
           <p><strong>Sun Ham: </strong> +8210 9245 0553</p>
           
-          <Image
-          className={styles.icon}
-          src="/kakaoIcon.png"
-          alt="Kakao"
-          width={20}
-          height={20}
-          priority
-        />
-        <div className={styles.kaKao}>
-        <Image
-          src="/sunKakao.png"
-          alt="Sun Kakao"
-          width={340}
-          height={400}
-          priority
-        />
-        </div>
-      
+         
+  
         </div>
         
         <div className={styles.contact}>
           <p><strong>Hitomi Makabe: </strong> +8190 9018 4554</p>
           
-          <Image
-          className={styles.icon}
-          src="/kakaoIcon.png"
-          alt="Kakao"
-          width={20}
-          height={20}
-          priority
-        />
-        <div className={styles.kaKao}>
-        <Image
-          src="/hitomiKakao.jpg"
-          alt="hitomi Kakao "
-          width={340}
-          height={400}
-          priority
-        />
-        </div>
       
         </div>
 

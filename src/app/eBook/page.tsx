@@ -35,7 +35,7 @@ export default function Ebook() {
         
         <div className={style.header}>
         <BackButton/>
-            <h1>2024 Global Marketing Meeting <br/>Presentation eBooks</h1>
+            <h1>Keynote Speech & Education</h1>
             <Image
           className={style.logo}
           src="/parksystemsLogo.svg"
