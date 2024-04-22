@@ -1,0 +1,81 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem 0;
+  }
+  .header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    text-align: start;
+    padding-left: 120px;
+}
+
+.winner{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.winner h4 {
+    font-size: 50px;
+    font-weight: bold;
+    color: brown;
+}
+  .center h1 {
+    font-size: 80px;
+  }
+  .drawButton{
+    font-size: 50px;
+    color: white;
+    padding: 10px 10px;
+    background:gainsboro;
+    border-radius: 10px;
+    border: none;
+  }
+  .drawButton:hover{
+    font-size: 55px;
+    cursor: pointer;
+  }
+  .center::before {
+  background: var(--secondary-glow);
+  border-radius: 50%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+}
+.center h1{
+  text-align: center;
+}
+
+.center::after {
+  background: var(--primary-glow);
+  width: 240px;
+  height: 180px;
+  z-index: -1;
+}
+
+.center::before,
+.center::after {
+  content: "";
+  left: 50%;
+  position: absolute;
+  filter: blur(45px);
+  transform: translateZ(0);
+}

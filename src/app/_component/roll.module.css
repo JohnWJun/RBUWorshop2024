@@ -1,0 +1,300 @@
+.modalBackground {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.rolling{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rolling iframe{
+    border: none;
+    width: 100%;
+    height: 400px;
+}
+.winner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+.winner h4{
+    color: #970542;
+}
+.drawButton{
+    /* font-size: 20px; */
+    /* width: 50%; */
+    color: white;
+    padding: 10px 10px;
+    background:gainsboro;
+    border-radius: 10px;
+    border: none;
+  }
+.drawButton:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.modal {
+    background: #ffffff;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 90%;
+    max-width: 80vw;
+    min-width: 260px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow: hidden;
+}
+
+
+/* 
+@media screen and (min-height: 750px){
+    .modal{max-height: 800px;}
+}
+@media screen and (max-height: 800px){
+    .modal{max-height: 700px;}
+} */
+
+.modalHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 36px 80px 20px;
+    font-size: 31px;
+    color: dimgrey;
+    font-weight: bold;
+}
+
+
+.modalBody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+}
+
+/* width */
+.modalBody::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .modalBody::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .modalBody::-webkit-scrollbar-thumb {
+    background: #d3f4ed; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .modalBody::-webkit-scrollbar-thumb:hover {
+    background: #e3e3e3; 
+  }
+
+.modalBody h5{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.modalFooter {
+    padding: 24px 80px;
+}
+
+.seeMoreButtonSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seeMoreButton{
+    background:  none;
+    border: none;
+    padding: 20px;
+}
+
+.seeMoreButton:hover{
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.descriptionBox{
+    margin-bottom: 20px;
+    line-height: 2.0;
+}
+
+.exampleBox{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    line-height: 2.0;
+    background-color: #d3f4ed; 
+    padding: 10px 15px;
+    animation-name: blinking;
+    animation-duration: 2s;
+  
+}
+.exampleBox img {
+    width: 50px;
+    height: 50px;
+}
+.dialogBox{
+    border-radius: 20px;
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px 20px;
+}
+.exampleFooter{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@keyframes blinking {
+    0%   {background-color:#d3f4ed00}
+    25%  {background-color:#d3f4ed5c}
+    50%  {background-color:#d3f4ed9d; }
+    75%  {background-color:#d3f4edd5; }
+    100% {background-color:#d3f4ed; }
+   
+}
+
+
+.actionButton {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(15, 20, 25);
+    color: white;
+    font-size: 17px;
+}
+.actionButton:disabled {
+    opacity: 0.5;
+}
+.actionButton:hover {
+    background-color: rgb(39,44,48);
+}
+
+.closeButton {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeButton:hover {
+    background-color: rgba(15,20,25, 0.1);
+}
+
+.error{
+    font-weight: bold;
+    color: red;
+}
+
+@media screen and (max-width: 912px){
+    .modalBackground {
+        position: fixed;
+    }
+    .modal{
+        top: 15%;
+        position: fixed;
+    }
+    .modalBody {
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .modal {
+        min-width: 500px;
+    }
+}
+@media screen and (max-width: 578px){
+    .modal {
+        top: 10%;
+        min-width: 200px;
+        max-height: 700px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .modal{
+        top: 8%;
+        position: fixed;
+        max-height: 570px;
+    }
+    .modalBody {
+        font-size: 40%;
+
+    }
+    .postUserSection {
+        display: none;
+    }
+}
+@media screen and (max-width: 578px) and (max-height:720px){
+    .modal{
+        top: 8%;
+        position: fixed;
+        max-height: 570px;
+    }
+    .modalBody {
+        font-size: 40%;
+
+    }
+    .postUserSection {
+        display: none;
+    }
+}
+@media screen and (max-width: 360px) and (max-height:740px){
+    .modal{
+        top: 8%;
+        position: fixed;
+        max-height: 570px;
+    }
+    .modalBody {
+        font-size: 40%;
+
+    }
+    .postUserSection {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) and (max-height:600px){
+    .modal{
+        top: 8%;
+        position: fixed;
+        max-height: 500px;
+    }
+    .modalBody {
+        font-size: 40%;
+
+    }
+    .postUserSection {
+        display: none;
+    }
+}
