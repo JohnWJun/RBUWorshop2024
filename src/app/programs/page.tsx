@@ -6,9 +6,20 @@ import { useState } from 'react';
 import BackButton from '../_component/BackButton';
 import Image from 'next/image';
 import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} from "@nextui-org/table";
+import SakuraFalls from '../_component/SakuraFalls';
 
 
 export default function Programs() {
+    const [isParkyTime, setIsParkyTime] = useState(false);
+
+    const onClickParky = () => {
+
+        if(isParkyTime === false){
+            setIsParkyTime(true)
+        }else {
+            setIsParkyTime(false)
+        }
+    }
     return (
     <>
        <div className={style.main}>
@@ -28,9 +39,17 @@ export default function Programs() {
             
             <div className={style.scheduleContainer}>
             <div className={style.bodyComponents}>
+            
                 <br/>
                 <br/>
-                <h5>첫째날 일정</h5>
+                <h5>첫째날 일정 <Image
+                        className={style.icon}
+                        src="/parky.svg"
+                        alt="parky icon"
+                        width={20}
+                        height={20}
+                        priority
+                        /></h5>
                 <br/>
                 <br/>
                 <div className={style.group}>
@@ -73,7 +92,14 @@ export default function Programs() {
                 </div>
                 <br/>
                 <br/>
-                <h5>둘째날 일정</h5>
+                <h5>둘째날 일정 <Image
+                        className={style.icon}
+                        src="/parky.svg"
+                        alt="parky icon"
+                        width={20}
+                        height={20}
+                        priority
+                        /></h5>
                 <br/>
                 <br/>
                 <div className={style.group}>
@@ -96,9 +122,18 @@ export default function Programs() {
                     </Table>
                 </div>
             </div>
+           
         </div>
-
-
+        
             </div>
+            <button className={style.parkyTime} onClick={onClickParky}><Image
+                        className={style.icon}
+                        src="/parky.svg"
+                        alt="parky icon"
+                        width={20}
+                        height={20}
+                        priority
+                        /></button>
+            { isParkyTime ?(<SakuraFalls/>): null}
     </>
     )}

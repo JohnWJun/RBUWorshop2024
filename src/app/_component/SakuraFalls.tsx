@@ -8,365 +8,365 @@ export default function SakuraFalls(){
         <span>
         <Image
 
-                    src="/leaf.png"
-                    alt="leaf"
-                    width={20}
-                    height={20}
+                    src="/parky.svg"
+                    alt="parky time"
+                    width={40}
+                    height={40}
                     priority
                     />
           </span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
         <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
 <span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span><span><Image
 
-src="/leaf.png"
-alt="leaf"
-width={20}
-height={20}
+src="/parky.svg"
+alt="parky time"
+width={40}
+height={40}
 priority
 /></span>
       </div> 

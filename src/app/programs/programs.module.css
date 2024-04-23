@@ -45,6 +45,11 @@
     flex-direction: column;
     justify-content: stretch;
 }
+.parkyTime{
+    background: none;
+    border: none;
+    margin: 10px 10px;
+}
 .tableHeadColumn{
     font-size: 8px;
     margin-bottom: 20px;
