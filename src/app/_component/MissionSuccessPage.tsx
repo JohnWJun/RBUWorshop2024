@@ -16,7 +16,7 @@ export default function MissionSuccessPage({mission,point}:Props){
 
 
     const onClickBack = () => {
-        router.replace('/entertainment');
+        router.replace('/');
     };
    
     
