@@ -29,7 +29,7 @@ export default function Entertainment() {
                     />
                     </div>
         <div className={style.body}>
-            <h3>Groups</h3>
+            <h3>Teams</h3>
             
             <div className={style.bodyComponents}>
                 <div className={style.group}>
