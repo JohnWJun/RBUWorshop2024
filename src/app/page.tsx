@@ -127,7 +127,7 @@ export default function Home() {
         </Link> */}
       </div>
       
-       <div className={styles.footer}>
+       {/* <div className={styles.footer}>
         <div className={styles.contactUs}>
         <h5>Contact Us</h5>
         <div className={styles.contact}>
@@ -148,7 +148,7 @@ export default function Home() {
         </div>
 
         </div>
-        </div>
+        </div> */}
         
     </main>
   );
