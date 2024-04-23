@@ -4,7 +4,6 @@ import { useState } from 'react';
 import style from '@/app/entertainment/entertainment.module.css';
 import BackButton from '@/app/_component/BackButton';
 import Image from 'next/image';
-import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} from "@nextui-org/table";
 import Link from "next/link";
 
 export default function Entertainment() {
@@ -143,51 +142,7 @@ export default function Entertainment() {
             <h2>영화 대사 듣고 영화 맞추기</h2>
             <h5>제한시간안에 5개의 영화를 모두 맞추면 미션 성공!</h5>  
             </div>
-            <h5>Schedule:</h5>
-            <br/>
-            <br/>
-            <div className={style.bodyComponents}>
-        
-            <div className={style.group}>
-            <Table className={style.table} aria-label="schedule table">
-            <TableHeader >
-                <TableColumn className={style.tableHeadColumn}>Time</TableColumn>
-                <TableColumn className={style.tableHeadColumn}>Action</TableColumn>
-            </TableHeader>
-            <TableBody>
-                <TableRow key="1">
-                <TableCell className={style.cell}>16:30</TableCell>
-                <TableCell className={style.cell}>Move to Shibuya(bus)</TableCell>
-                </TableRow>
-                <TableRow key="2">
-                <TableCell className={style.cell}>17:00</TableCell>
-                <TableCell className={style.cell}>Arrival at Shubuya</TableCell>
-                </TableRow>
-                <TableRow key="3">
-                <TableCell className={style.cell}>17:30 - 19:30</TableCell>
-                <TableCell className={style.cell}>Dinner at Hyoto Shibuya</TableCell>
-                </TableRow>
-                <TableRow key="4">
-                <TableCell className={style.cell}>19:30 - 20:00</TableCell>
-                <TableCell className={style.cell}>Move to Shibuya Sky and activity time</TableCell>
-                </TableRow>
-                <TableRow key="5">
-                <TableCell className={style.cell}>21:30</TableCell>
-                <TableCell className={style.cell}>Move to TKP Shibuya(bus) and back to accommodation</TableCell>
-                </TableRow>
-                <TableRow key="6">
-                <TableCell className={style.cell}>22:00</TableCell>
-                <TableCell className={style.cell}>Arrival at accommodation</TableCell>
-                </TableRow>
-            </TableBody>
-            </Table>
-
-                 
-                 
-            </div>
-
-
-            </div>
+            
 
         </div>           
                
