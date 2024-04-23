@@ -31,7 +31,7 @@ export default function Home() {
       
       
 
-        <button className={styles.vote}> 
+        {/* <button className={styles.vote}> 
       <Link href="/vote" title="Vote for Best Performance Award Winner">
       <Image
           src="/survey.png"
@@ -42,7 +42,7 @@ export default function Home() {
         />
         </Link>
         
-        </button>
+        </button> */}
        
         </div>
       <div className={styles.grid}>

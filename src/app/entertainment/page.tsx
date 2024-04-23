@@ -34,33 +34,33 @@ export default function Entertainment() {
             <div className={style.bodyComponents}>
                 <div className={style.group}>
                 <h5>Event Running Team</h5>
-                Hitomi Makabe, Sun Ham, Cherie Jung, John Jun, Lina Ma, Soo Lee, Judy Kim, Jack Cha, and Eric Kim
+                김영훈, 권민정, 권지오, 전우현, 정가윤, 정다원, 홍석한
                 </div>
 
                 <div className={style.group}>
                 <h5>Team A</h5>
-                Insu Kim, Xiaowei Tian, Yuya Wagatsuma, Kenneth Kang, Hyein Kim, Katie Yang, Raina Lee, Elizabeth Martinez, and Caleb Chu 
+                신혜진, 오예진, 김건우, 이철기, 함선규, 최자양, 하승섭
                 </div>
 
                 <div className={style.group}>
                 <h5>Team B</h5>
-                Takahiro Fujimoto, Shin Matsuda, Yi-Chen Lu, Haichao Guo, Katja Kiffner, Alejandro Bonilla, Brian Kim, Vamsi Bendalam, and Peter Park
+                차윤미, 장영운, 조상준, 강봉우, 이윤경, 강도희, 김강산
                 </div>
 
                 <div className={style.group}>
                 <h5>Team C</h5>
-                Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
+                정다워, 유현주, 정진주, 마려나, 원당광, 아야즈, 김철수
                 </div>
 
                 <div className={style.group}>
                 <h5>Team D</h5>
-                Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
+                지영지, 이주엽, 김성오, 윤혜원, 정가윤, 권대현, 박성복
                 </div>
 
                 <div className={style.group}>
                 <h5>Team E</h5>
-                Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
-                </div>
+                이정애, 정동환, 박정미, 김보형, 양경득, 박승민, 김승미
+                 </div>
             </div>
             <br/>
             <br/>
@@ -89,14 +89,16 @@ export default function Entertainment() {
             <div className={style.bodyComponents}>
                 
                 <div className={style.imgBox}>
+                <a href="/resortMap.jpg">
                     <Image
                     className={style.image}
-                    src="/missionMap.jpg"
+                    src="/resortMap.jpg"
                     alt="Mission Map"
                     width={700}
-                    height={500}
+                    height={300}
                     priority
                     />
+                    </a>
                 </div>
 
                 
