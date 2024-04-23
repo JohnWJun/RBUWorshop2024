@@ -8,7 +8,7 @@ import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} 
 import Link from "next/link";
 import MissionSuccessPage from '@/app/_component/MissionSuccessPage';
 
-export default function Mission6() {
+export default function Mission2() {
    
     const [key1, setKey1] = useState('');
 
@@ -21,8 +21,8 @@ export default function Mission6() {
         <div className={style.main}>
             <div className={style.mission}>
             
-                <h3>틱톡 첼린지</h3>
-                <h5>도전하고자 하는 댄스 영상을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>
+                <h3>포토제닉 트릭샷 성공하기</h3>
+                <h5>도전하고자 하는 사진을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>
                
                <div className={style.passcode}>
                 <input name={"passcode"} value={key1} onChange={onChangeKey1} placeholder={'패스코드를 입력하세요'}></input>
@@ -30,26 +30,70 @@ export default function Mission6() {
                </div>
                <br/>
                <br/>
-               <h5>틱톡 첼린지 Option 1</h5>
+               <h5>트릭샷 첼린지 Option 1 (보너스 점수 +20)</h5>
                <div  className={style.videoBox}>
-               
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/mEGsNu-aNXI?si=eJgTi1dSvhqjx9RP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+               <Image
+                    src="/trickShot1.jpg"
+                    alt="trick shot 1"
+                    width={300}
+                    height={400}
+                    priority
+                    />
                </div>
                <br/>
                <br/>
-               <h5>틱톡 첼린지 Option 2</h5>
+               <h5>트릭샷 첼린지 Option 2 (보너스 점수 +20)</h5>
                 <div  className={style.videoBox}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mEGsNu-aNXI?si=eJgTi1dSvhqjx9RP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <Image
+                    src="/trickShot2.jpg"
+                    alt="trick shot 2"
+                    width={300}
+                    height={400}
+                    priority
+                    />
+               </div>
+               <br/>
+               <br/>
+               <h5>트릭샷 첼린지 Option 3 (보너스 점수 +10)</h5>
+                <div  className={style.videoBox}>
+                <Image
+                    src="/trickShot3.jpg"
+                    alt="trick shot 3"
+                    width={300}
+                    height={400}
+                    priority
+                    />
+               </div>
+               <br/>
+               <br/>
+               <h5>트릭샷 첼린지 Option 4 (보너스 점수 +20)</h5>
+                <div  className={style.videoBox}>
+                <Image
+                    src="/trickShot4.jpg"
+                    alt="trick shot 4"
+                    width={300}
+                    height={400}
+                    priority
+                    />
+               </div>
+               <br/>
+               <br/>
+               <h5>트릭샷 첼린지 Option 5 (보너스 점수 +0)</h5>
+                <div  className={style.videoBox}>
+                <Image
+                    src="/trickShot5.jpg"
+                    alt="trick shot 5"
+                    width={300}
+                    height={400}
+                    priority
+                    />
+               </div>
+               <br/>
+               <br/>
+               <h5>트릭샷 첼린지 Option 6</h5>
+               <h4>RBU 글자 만들기!</h4>
             
-               </div>
-               <br/>
-               <br/>
-               <h5>틱톡 첼린지 Option 3</h5>
-                <div  className={style.videoBox}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mEGsNu-aNXI?si=eJgTi1dSvhqjx9RP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-               
-               </div>
-            {key1 === 'jsx20453@' ? (<MissionSuccessPage mission='틱톡첼린지' point={50} />) : null}
+            {key1 === 'cvjnmyjw54$$@' ? (<MissionSuccessPage mission='트릭샷첼린지' point={20} />) : null}
             </div>
         </div>
         </>

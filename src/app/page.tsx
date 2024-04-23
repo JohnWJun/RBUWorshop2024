@@ -53,7 +53,7 @@ export default function Home() {
           <h2>
             Education<span>-&gt;</span>
           </h2>
-          <p>PPTs and Educational resources</p>
+          <p>PPTs and educational resources</p>
         </Link>
 
         <Link

@@ -8,7 +8,7 @@ import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} 
 import Link from "next/link";
 import MissionSuccessPage from '@/app/_component/MissionSuccessPage';
 
-export default function Mission4() {
+export default function Mission6() {
    
     const [key1, setKey1] = useState('');
 
@@ -21,14 +21,15 @@ export default function Mission4() {
         <div className={style.main}>
             <div className={style.mission}>
             
-                <h3>무비왕 첼린지</h3>
-                <h5>제한시간안에 팀원중 한명이 영화 대사를 성대모사하고 나머지 팀원들이 영화제목을 맞춘다. 제한시간안에 5개의 영화를 모두 맞추면 미션 성공! </h5>
+                <h3>RBU 퍼즐첼린지</h3>
+                <h5>RBU 각부서의 업무에 따른 Journey Map을 순서에 따라 알맞게 위치시키고 해당 부서들의 역할과 업무를 설명할 수 있다면 미션 성공!</h5>
                
                <div className={style.passcode}>
                 <input name={"passcode"} value={key1} onChange={onChangeKey1} placeholder={'패스코드를 입력하세요'}></input>
             
                </div>
-            {key1 === 'bvsdfg3367%' ? (<MissionSuccessPage mission='무비왕첼린지' point={40} />) : null}
+               
+            {key1 === 'cgfevasdw##' ? (<MissionSuccessPage mission='퍼즐첼린지' point={80} />) : null}
             </div>
         </div>
         </>

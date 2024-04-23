@@ -120,7 +120,7 @@ export default function Entertainment() {
             <h3>Mission 3</h3>
             <div className={style.bodyComponents}>
             <h2>Quiz 맞추기</h2>
-            <h5>앞에 들었던 강의를 떠올리며 팀원과 상의하여 Quiz를 풀고 80점이상 맞으면 미션 성공!</h5>  
+            <h5>앞에 들었던 강의를 떠올리며 팀원과 상의하여 Quiz 5문제를 풀고 모두 맞추면 미션 성공!</h5>  
             </div>
             <br/>
             <br/>
