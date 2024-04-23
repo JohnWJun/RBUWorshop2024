@@ -9,8 +9,8 @@ const inter = pretendard({
 });
 
 export const metadata: Metadata = {
-  title: "Park Systems AMM2024",
-  description: "Global Marketing Meeting 2024 in Japan"
+  title: "Park Systems RBU Workshop 2024",
+  description: "Research Equipment Business Unit Workshop 2024"
 };
 
 export default function RootLayout({
