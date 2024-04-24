@@ -44,6 +44,9 @@ export default function MissionSuccessPage({mission,point}:Props){
                     <h2>
                          <br/>포인트 획득!<br/>
                     </h2>
+                    <h2>
+                         <br/>팀장님께서는 해당 페이지를 스크린 캡쳐하여 저장해주세요.<br/>
+                    </h2>
                     </div>
                     </div>
         </div>

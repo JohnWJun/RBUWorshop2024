@@ -89,10 +89,10 @@ export default function Entertainment() {
             <div className={style.bodyComponents}>
                 
                 <div className={style.imgBox}>
-                <a href="/resortMap.jpg">
+                <a href="/missionMap.png">
                     <Image
                     className={style.image}
-                    src="/resortMap.jpg"
+                    src="/missionMap.png"
                     alt="Mission Map"
                     width={700}
                     height={300}
