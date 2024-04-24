@@ -43,14 +43,18 @@
   background-color: rgb(228, 228, 227);
 }
 
-.vote {
+.parkyTime {
 
   opacity: 0.8; 
   padding: 10px 10px 8px 10px;
   border: none;
   background: none;
 }
-.vote:hover{
+.showTime{
+  padding-right: 10px;
+}
+.parkyTime:hover{
+  cursor: pointer;
   padding: 10px 10px 8px 10px;
   border: none;
   border-radius: 100px;

@@ -2,24 +2,15 @@
 "use client";
 import style from './programs.module.css';
 import Link from 'next/link';
-import { useState } from 'react';
+
 import BackButton from '../_component/BackButton';
 import Image from 'next/image';
 import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} from "@nextui-org/table";
-import SakuraFalls from '../_component/SakuraFalls';
+
 
 
 export default function Programs() {
-    const [isParkyTime, setIsParkyTime] = useState(false);
-
-    const onClickParky = () => {
-
-        if(isParkyTime === false){
-            setIsParkyTime(true)
-        }else {
-            setIsParkyTime(false)
-        }
-    }
+ 
     return (
     <>
        <div className={style.main}>
@@ -126,14 +117,6 @@ export default function Programs() {
         </div>
         
             </div>
-            <button className={style.parkyTime} onClick={onClickParky}><Image
-                        className={style.icon}
-                        src="/parky.svg"
-                        alt="parky icon"
-                        width={20}
-                        height={20}
-                        priority
-                        /></button>
-            { isParkyTime ?(<SakuraFalls/>): null}
+            
     </>
     )}

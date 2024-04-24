@@ -8,6 +8,11 @@
       height: 100%;
      overflow: hidden;
   }
+  .parkyCatch {
+    pointer-events:all;
+    cursor: pointer;
+  
+  }
   
 .sakura span {
     pointer-events: none;

@@ -1,8 +1,21 @@
+"use client";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import SakuraFalls from '@/app/_component/SakuraFalls';
+import { useState } from 'react';
 
 export default function Home() {
+  const [isParkyTime, setIsParkyTime] = useState(false);
+
+  const onClickParky = () => {
+
+      if(isParkyTime === false){
+          setIsParkyTime(true)
+      }else {
+          setIsParkyTime(false)
+      }
+  }
   return (
     <main className={styles.main}>
       
@@ -28,21 +41,23 @@ export default function Home() {
   
       </div>
       <div className={styles.upperMenubar}>
-      
+      { isParkyTime ?(
+    
+      <div className={styles.showTime}>
+        It is Parky time! <br/>
+        Click Parky again to turn it off!
+      </div>
+     
+      ): null}
       
 
-        {/* <button className={styles.vote}> 
-      <Link href="/vote" title="Vote for Best Performance Award Winner">
-      <Image
-          src="/survey.png"
-          alt="survey Icon"
-          width={50}
-          height={50}
-          priority
-        />
-        </Link>
-        
-        </button> */}
+      <button className={styles.parkyTime} onClick={onClickParky}><Image
+                        src="/parky.svg"
+                        alt="parky icon"
+                        width={50}
+                        height={50}
+                        priority
+                        /></button>
        
         </div>
       <div className={styles.grid}>
@@ -149,7 +164,8 @@ export default function Home() {
 
         </div>
         </div> */}
-        
+     
+            { isParkyTime ?(<SakuraFalls/>): null}
     </main>
   );
 }

@@ -28,7 +28,7 @@ export default function Mission4() {
                 <input name={"passcode"} value={key1} onChange={onChangeKey1} placeholder={'패스코드를 입력하세요'}></input>
             
                </div>
-            {key1 === 'jsx20453@' ? (<MissionSuccessPage mission='뮤직퀸첼린지' point={40} />) : null}
+            {key1 === 'sdfsdfbe2256**' ? (<MissionSuccessPage mission='뮤직퀸첼린지' point={40} />) : null}
             </div>
         </div>
         </>
