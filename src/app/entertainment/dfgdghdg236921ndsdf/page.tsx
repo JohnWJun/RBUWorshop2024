@@ -21,14 +21,24 @@ export default function Mission4() {
         <div className={style.main}>
             <div className={style.mission}>
             
-                <h3>무비왕 첼린지</h3>
-                <h5>제한시간안에 팀원중 한명이 영화 대사를 성대모사하고 나머지 팀원들이 영화제목을 맞춘다. 제한시간안에 5개의 영화를 모두 맞추면 미션 성공! </h5>
+                <h3>도플갱어 첼린지</h3>
+                <h5>제한시간안에 주어지는 사진의 인물을 보고 영화 또는 드라마제목을 최대한 많이 맞춰주세요. (문제당 5점) </h5>
                
                <div className={style.passcode}>
                 <input name={"passcode"} value={key1} onChange={onChangeKey1} placeholder={'패스코드를 입력하세요'}></input>
             
                </div>
-            {key1 === 'bvsdfg3367%' ? (<MissionSuccessPage mission='무비왕첼린지' point={40} />) : null}
+            {key1 === 'bvsdfg3367%1' ? (<MissionSuccessPage mission='도플겡어 첼린지' point={5} />) : null}
+            {key1 === 'bvsdfg3367%2' ? (<MissionSuccessPage mission='도플겡어 첼린지' point={10} />) : null}
+            {key1 === 'bvsdfg3367%3' ? (<MissionSuccessPage mission='도플겡어 첼린지' point={15} />) : null}
+            {key1 === 'bvsdfg3367%4' ? (<MissionSuccessPage mission='도플겡어 첼린지' point={20} />) : null}
+            {key1 === 'bvsdfg3367%5' ? (<MissionSuccessPage mission='도플겡어 첼린지' point={25} />) : null}
+            {key1 === 'bvsdfg3367%6' ? (<MissionSuccessPage mission='도플겡어 첼린지' point={30} />) : null}
+            {key1 === 'bvsdfg3367%7' ? (<MissionSuccessPage mission='도플겡어 첼린지' point={35} />) : null}
+            {key1 === 'bvsdfg3367%8' ? (<MissionSuccessPage mission='도플겡어 첼린지' point={40} />) : null}
+           
+            
+            
             </div>
         </div>
         </>

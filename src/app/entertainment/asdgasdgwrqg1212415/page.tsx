@@ -21,15 +21,23 @@ export default function Mission4() {
         <div className={style.main}>
             <div className={style.mission}>
             
-                <h3>뮤직퀸 첼린지</h3>
-                <h5>제한시간안에 10초씩 들려주는 노래 전주를 듣고 노래제목을 맞춘다. 제한시간안에 5개의 노래를 모두 맞추면 미션 성공! </h5>
+                <h3>뮤직왕 첼린지</h3>
+                <h5>제한시간안에 TTS가 읽어주는 가사만 듣고 노래제목을 최대한 많이 맞춰주세요. (문제당 5점)</h5>
                
                <div className={style.passcode}>
                 <input name={"passcode"} value={key1} onChange={onChangeKey1} placeholder={'패스코드를 입력하세요'}></input>
             
                </div>
-            {key1 === 'sdfsdfbe2256**' ? (<MissionSuccessPage mission='뮤직퀸첼린지' point={40} />) : null}
-            </div>
+                {key1 === 'sdfsdfbe2256**1' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={5} />) : null}
+                {key1 === 'sdfsdfbe2256**2' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={10} />) : null}
+                {key1 === 'sdfsdfbe2256**3' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={15} />) : null}
+                {key1 === 'sdfsdfbe2256**4' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={20} />) : null}
+                {key1 === 'sdfsdfbe2256**5' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={25} />) : null}
+                {key1 === 'sdfsdfbe2256**6' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={30} />) : null}
+                {key1 === 'sdfsdfbe2256**7' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={35} />) : null}
+                {key1 === 'sdfsdfbe2256**8' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={40} />) : null}
+           
+         </div>
         </div>
         </>
     );

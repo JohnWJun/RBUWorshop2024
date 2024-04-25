@@ -137,6 +137,28 @@
     justify-content: center;
     align-items: center;
 }
+.table {
+    text-align: center;
+    padding:10px;
+    border:1px dashed #888;
+  }
+  
+
+  
+  .dark {
+    width: 30px;
+    height: 30px;
+    background:#333;
+    
+  }
+  
+  .input {
+    width: 30px;
+    height: 30px;
+    font-size:24px;
+    text-align:center;
+    border: 2px solid #222;
+  }
 .videoBox{
     padding-left: 20px;
     padding-right: 20px;

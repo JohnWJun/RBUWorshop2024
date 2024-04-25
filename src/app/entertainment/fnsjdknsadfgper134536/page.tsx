@@ -93,7 +93,7 @@ export default function Mission2() {
                <h5>트릭샷 첼린지 Option 6</h5>
                <h4>RBU 글자 만들기!</h4>
             
-            {key1 === 'cvjnmyjw54$$@' ? (<MissionSuccessPage mission='트릭샷첼린지' point={20} />) : null}
+            {key1 === 'cvjnmyjw54$$@' ? (<MissionSuccessPage mission='트릭샷첼린지' point={30} />) : null}
             </div>
         </div>
         </>

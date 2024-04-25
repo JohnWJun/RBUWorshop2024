@@ -34,32 +34,37 @@ export default function Entertainment() {
             <div className={style.bodyComponents}>
                 <div className={style.group}>
                 <h5>Event Running Team</h5>
-                김영훈, 권민정, 권지오, 전우현, 정가윤, 정다원, 홍석한
+                김영훈, 권민정, 권지오, 전우현, 정다원, 홍석한
                 </div>
 
                 <div className={style.group}>
                 <h5>Team A</h5>
-                신혜진, 오예진, 김건우, 이철기, 함선규, 최자양, 하승섭
+                조상준, 김보형, 정진주, 이철기, 박정미, 오예진
                 </div>
 
                 <div className={style.group}>
                 <h5>Team B</h5>
-                차윤미, 장영운, 조상준, 강봉우, 이윤경, 강도희, 김강산
+                양경득, 이주엽, 정다워, 지영지, 정동환, 하승섭
                 </div>
 
                 <div className={style.group}>
                 <h5>Team C</h5>
-                정다워, 유현주, 정진주, 마려나, 원당광, 아야즈, 김철수
+                이윤경, 김철수, 장영운, 마려나, 윤혜원, 최자양
                 </div>
 
                 <div className={style.group}>
                 <h5>Team D</h5>
-                지영지, 이주엽, 김성오, 윤혜원, 정가윤, 권대현, 박성복
+                이정애, 강도희, 박성복, 김건우, 박승민, 장서균
                 </div>
 
                 <div className={style.group}>
                 <h5>Team E</h5>
-                이정애, 정동환, 박정미, 김보형, 양경득, 박승민, 김승미
+                강봉우, 유현주, 김민철, 차윤미, 김강산, 권대현 
+                 </div>
+                 
+                <div className={style.group}>
+                <h5>Team F</h5>
+                김성오, 원당광, 신혜진, 함선규, 아야즈, 김승미
                  </div>
             </div>
             <br/>
@@ -105,7 +110,7 @@ export default function Entertainment() {
             </div>
             <h3>Mission 1</h3>
             <div className={style.bodyComponents}>
-            <h2>틱톡 첼린지</h2>
+            <h2>틱톡 첼린지(50점 / 최대 90점!)</h2>
             <h5>도전하고자 하는 댄스 영상을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>
                     
             </div>
@@ -113,38 +118,44 @@ export default function Entertainment() {
             <br/>
             <h3>Mission 2</h3>
             <div className={style.bodyComponents}>
-            <h2>영화 대사 듣고 영화 맞추기</h2>
-            <h5>제한시간안에 5개의 영화를 모두 맞추면 미션 성공!</h5>  
+            <h2>도플갱어 첼린지 (문제당 5점 / 최대 80점!)</h2>
+            <h5>사진의 주인공을 보시고 영화 또는 드라마제목을 최대한 많이 맞춰주세요.</h5>  
             </div>
             <br/>
             <br/>
             <h3>Mission 3</h3>
             <div className={style.bodyComponents}>
-            <h2>Quiz 맞추기</h2>
+            <h2>Quiz 맞추기 (50점)</h2>
             <h5>앞에 들었던 강의를 떠올리며 팀원과 상의하여 Quiz 5문제를 풀고 모두 맞추면 미션 성공!</h5>  
             </div>
             <br/>
             <br/>
             <h3>Mission 4</h3>
             <div className={style.bodyComponents}>
-            <h2>노래 10초 듣고 노래 맞추기</h2>
-            <h5>제한시간안에 5개의 노래를 모두 맞추면 미션 성공!</h5>  
+            <h2>뮤직왕 첼린지</h2>
+            <h5>제한시간안에 TTS 음성 가사만 듣고 어떤 노래인지 최대한 많이 맞춰주세요.</h5>  
             </div>
             <br/>
             <br/>
             <h3>Mission 5</h3>
             <div className={style.bodyComponents}>
-            <h2>영화 대사 듣고 영화 맞추기</h2>
-            <h5>제한시간안에 5개의 영화를 모두 맞추면 미션 성공!</h5>  
+            <h2>넌 어느별에서 왔니? 첼린지</h2>
+            <h5>분리된 이목구비만 보고 누구인지 맞추기</h5>  
             </div>
             <br/>
             <br/>
             <h3>Mission 6</h3>
             <div className={style.bodyComponents}>
-            <h2>영화 대사 듣고 영화 맞추기</h2>
-            <h5>제한시간안에 5개의 영화를 모두 맞추면 미션 성공!</h5>  
+            <h2>트릭샷 첼린지</h2>
+            <h5>제시된 포즈 중 하나 선택해서 사진을 찍고 인스타그램에 업로드하면 미션 성공!</h5>  
             </div>
-            
+            <br/>
+            <br/>
+            <h3>Mission 7</h3>
+            <div className={style.bodyComponents}>
+            <h2>모두의 모드 첼린지</h2>
+            <h5>AFM 기본 지식 테스트, 십자말풀이!</h5>  
+            </div>
 
         </div>           
                
