@@ -72,7 +72,7 @@
     border-radius: 30px;
     margin-bottom: 50px;
 }
-.tableHeadColumn{
+/* .tableHeadColumn{
     border-bottom: 1px solid rgb(3, 59, 143);
     padding: 5px 5px;
 }
@@ -87,7 +87,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 .icon{
     margin-left: 5px;
 }
@@ -156,7 +156,7 @@
   .input {
     width: 30px;
     height: 30px;
-    font-size:24px;
+    font-size:20px;
     text-align:center;
     border: 2px solid #222;
   }
@@ -211,6 +211,11 @@
         z-index: 9999; /* Adjust as needed */
     }
 
+
+    .input{
+        font-size: 15px;
+        width: 100%;
+    }
     .body {
         padding: 10px;
         width: inherit;
