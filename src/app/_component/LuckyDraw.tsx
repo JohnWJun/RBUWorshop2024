@@ -31,7 +31,7 @@ export default function LuckyDraw() {
         </div>
       
       <button className={style.drawButton}>
-        <Link href={'luckyDraw/roll'}>Draw Prize</Link></button>
+        <Link href={'luckyDraw/roll'}>당첨자 추첨</Link></button>
       
     </div>
   );
