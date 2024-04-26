@@ -116,209 +116,259 @@ export default function Mission6() {
     const [success, setSuccess] = useState(false);
     
     const onChangeKey1: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey1(e.target.value);
+        setKey1(e.target.value.toUpperCase());
     }
     
     const onChangeKey2: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey2(e.target.value);
+        setKey2(e.target.value.toUpperCase());
     }
     
     const onChangeKey3: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey3(e.target.value);
+        setKey3(e.target.value.toUpperCase());
     }
     
     const onChangeKey4: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey4(e.target.value);
+        setKey4(e.target.value.toUpperCase());
     }
     
     const onChangeKey5: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey5(e.target.value);
+        setKey5(e.target.value.toUpperCase());
     }
     
     const onChangeKey6: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey6(e.target.value);
+        setKey6(e.target.value.toUpperCase());
     }
     
     const onChangeKey7: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey7(e.target.value);
+        setKey7(e.target.value.toUpperCase());
     }
     
     const onChangeKey8: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey8(e.target.value);
+        setKey8(e.target.value.toUpperCase());
     }
     
     const onChangeKey9: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey9(e.target.value);
+        setKey9(e.target.value.toUpperCase());
     }
     
     const onChangeKey10: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey10(e.target.value);
+        setKey10(e.target.value.toUpperCase());
     }
     
     const onChangeKey11: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey11(e.target.value);
+        setKey11(e.target.value.toUpperCase());
     }
     
     const onChangeKey12: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey12(e.target.value);
+        setKey12(e.target.value.toUpperCase());
     }
     
     const onChangeKey13: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey13(e.target.value);
+        setKey13(e.target.value.toUpperCase());
     }
     
     const onChangeKey14: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey14(e.target.value);
+        setKey14(e.target.value.toUpperCase());
     }
     
     const onChangeKey15: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey15(e.target.value);
+        setKey15(e.target.value.toUpperCase());
     }
     
     const onChangeKey16: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey16(e.target.value);
+        setKey16(e.target.value.toUpperCase());
     }
     
     const onChangeKey17: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey17(e.target.value);
+        setKey17(e.target.value.toUpperCase());
     }
     
     const onChangeKey18: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey18(e.target.value);
+        setKey18(e.target.value.toUpperCase());
     }
     
     const onChangeKey19: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey19(e.target.value);
+        setKey19(e.target.value.toUpperCase());
     }
     
     const onChangeKey20: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey20(e.target.value);
+        setKey20(e.target.value.toUpperCase());
     }
     
     const onChangeKey21: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey21(e.target.value);
+        setKey21(e.target.value.toUpperCase());
     }
     
     const onChangeKey22: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey22(e.target.value);
+        setKey22(e.target.value.toUpperCase());
     }
     
     const onChangeKey23: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey23(e.target.value);
+        setKey23(e.target.value.toUpperCase());
     }
     
     const onChangeKey24: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey24(e.target.value);
+        setKey24(e.target.value.toUpperCase());
     }
     
     const onChangeKey25: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey25(e.target.value);
+        setKey25(e.target.value.toUpperCase());
     }
     
     const onChangeKey26: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey26(e.target.value);
+        setKey26(e.target.value.toUpperCase());
     }
     
     const onChangeKey27: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey27(e.target.value);
+        setKey27(e.target.value.toUpperCase());
     }
     
     const onChangeKey28: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey28(e.target.value);
+        setKey28(e.target.value.toUpperCase());
     }
     
     const onChangeKey29: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey29(e.target.value);
+        setKey29(e.target.value.toUpperCase());
     }
     
     const onChangeKey30: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey30(e.target.value);
+        setKey30(e.target.value.toUpperCase());
     }
     
     const onChangeKey31: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey31(e.target.value);
+        setKey31(e.target.value.toUpperCase());
     }
     
     const onChangeKey32: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey32(e.target.value);
+        setKey32(e.target.value.toUpperCase());
     }
     
     const onChangeKey33: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey33(e.target.value);
+        setKey33(e.target.value.toUpperCase());
     }
     
     const onChangeKey34: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey34(e.target.value);
+        setKey34(e.target.value.toUpperCase());
     }
     
     const onChangeKey35: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey35(e.target.value);
+        setKey35(e.target.value.toUpperCase());
     }
     
     const onChangeKey36: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey36(e.target.value);
+        setKey36(e.target.value.toUpperCase());
     }
     
     const onChangeKey37: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey37(e.target.value);
+        setKey37(e.target.value.toUpperCase());
     }
     
     const onChangeKey38: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey38(e.target.value);
+        setKey38(e.target.value.toUpperCase());
     }
     
     const onChangeKey39: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey39(e.target.value);
+        setKey39(e.target.value.toUpperCase());
     }
     
     const onChangeKey40: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey40(e.target.value);
+        setKey40(e.target.value.toUpperCase());
     }
     
     const onChangeKey41: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey41(e.target.value);
+        setKey41(e.target.value.toUpperCase());
     }
     
     const onChangeKey42: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey42(e.target.value);
+        setKey42(e.target.value.toUpperCase());
     }
     
     const onChangeKey43: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey43(e.target.value);
+        setKey43(e.target.value.toUpperCase());
     }
     
     const onChangeKey44: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey44(e.target.value);
+        setKey44(e.target.value.toUpperCase());
     }
     
     const onChangeKey45: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey45(e.target.value);
+        setKey45(e.target.value.toUpperCase());
     }
     
     const onChangeKey46: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey46(e.target.value);
+        setKey46(e.target.value.toUpperCase());
     }
     
     const onChangeKey47: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey47(e.target.value);
+        setKey47(e.target.value.toUpperCase());
     }
     
     const onChangeKey48: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey48(e.target.value);
+        setKey48(e.target.value.toUpperCase());
     }
     
     const onChangeKey49: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey49(e.target.value);
+        setKey49(e.target.value.toUpperCase());
     }
     
     const onChangeKey50: ChangeEventHandler<HTMLInputElement> = (e) => {
-        setKey50(e.target.value);
+        setKey50(e.target.value.toUpperCase());
     }
     
     const onSubmit : FormEventHandler = async (e) => {
         e.preventDefault();
 
-        if(key1 === answer1 && key2 === answer2  && key3 === answer3  && key4 === answer4 && key5 === answer5){
+        if(key1 === answer1 && 
+            key2 === answer2 && 
+            key3 === answer3 && 
+            key4 === answer4 && 
+            key5 === answer5 &&
+            key6 === answer6 &&
+            key7 === answer7 &&
+            key8 === answer8 &&
+            key9 === answer9 &&
+            key10 === answer10 &&
+            key11 === answer11 &&
+            key12 === answer12 &&
+            key13 === answer13 &&
+            key14 === answer14 &&
+            key15 === answer15 &&
+            key16 === answer16 &&
+            key17 === answer17 &&
+            key18 === answer18 &&
+            key19 === answer19 &&
+            key20 === answer20 &&
+            key21 === answer21 &&
+            key22 === answer22 &&
+            key23 === answer23 &&
+            key24 === answer24 &&
+            key25 === answer25 &&
+            key26 === answer26 &&
+            key27 === answer27 &&
+            key28 === answer28 &&
+            key29 === answer29 &&
+            key30 === answer30 &&
+            key31 === answer31 &&
+            key32 === answer32 &&
+            key33 === answer33 &&
+            key34 === answer34 &&
+            key35 === answer35 &&
+            key36 === answer36 &&
+            key37 === answer37 &&
+            key38 === answer38 &&
+            key39 === answer39 &&
+            key40 === answer40 &&
+            key41 === answer41 &&
+            key42 === answer42 &&
+            key43 === answer43 &&
+            key44 === answer44 &&
+            key45 === answer45 &&
+            key46 === answer46 &&
+            key47 === answer47 &&
+            key48 === answer48 &&
+            key49 === answer49 &&
+            key50 === answer50
+        ){
             setSuccess(true);
         }
     }
@@ -329,7 +379,9 @@ export default function Mission6() {
             <div className={style.mission}>
             
                 <h3>모두의 모드 첼린지</h3>
-                <h5>각종 Mode들을 포함한 파크인이라면 알아야할 AFM기초 지식을 테스트하며 십자말 풀이를 완성하면 미션 성공!</h5>
+                <h5>각종 Mode들을 포함한 파크인이라면 알아야할 AFM기초 지식을 테스트하며 십자말 풀이를 완성하면 미션 성공! </h5>
+                <br/>
+                <h5>모든 글자가 정답일 경우에만 성공 페이지가 열립니다. (대문자 소문자 상관 X)</h5>
                 <br/>
                 <br/>
                 <form onSubmit={onSubmit}>
@@ -350,11 +402,11 @@ export default function Mission6() {
                     <TableBody>
                         <TableRow key="1">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='1⮞' type="text" value={key1} onChange={onChangeKey1}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='1⬇'type="text" value={key2} onChange={onChangeKey2}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='1⮆' type="text" value={key1} onChange={onChangeKey1}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='1⇊'type="text" value={key2} onChange={onChangeKey2}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key3} onChange={onChangeKey3}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key4} onChange={onChangeKey4}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='2⬇' type="text" value={key5} onChange={onChangeKey5}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='2⇊' type="text" value={key5} onChange={onChangeKey5}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -367,7 +419,7 @@ export default function Mission6() {
                             <TableCell ><input className={style.input} type="text" value={key6} onChange={onChangeKey6}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='2⮞' type="text" value={key7} onChange={onChangeKey7}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='2⮆' type="text" value={key7} onChange={onChangeKey7}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key8} onChange={onChangeKey8}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key9} onChange={onChangeKey9}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key10} onChange={onChangeKey10}></input></TableCell>
@@ -389,7 +441,7 @@ export default function Mission6() {
                         </TableRow> 
                         <TableRow key="4">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='3⮞' type="text" value={key13} onChange={onChangeKey13}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='3⮆' type="text" value={key13} onChange={onChangeKey13}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key14} onChange={onChangeKey14}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key15} onChange={onChangeKey15}></input></TableCell>
             
@@ -417,9 +469,9 @@ export default function Mission6() {
                         </TableRow>
                         <TableRow key="6">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='4⮞' type="text" value={key22} onChange={onChangeKey22}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='4⮆' type="text" value={key22} onChange={onChangeKey22}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key23} onChange={onChangeKey23}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='3⬇' type="text" value={key24} onChange={onChangeKey24}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='3⇊' type="text" value={key24} onChange={onChangeKey24}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key25} onChange={onChangeKey25}></input></TableCell>
                  
                             <TableCell ><input className={style.input} type="text" value={key26} onChange={onChangeKey26}></input></TableCell>
@@ -438,7 +490,7 @@ export default function Mission6() {
                             
                             <TableCell ><input className={style.input} type="text" value={key27} onChange={onChangeKey27}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='5⮞' type="text" value={key28} onChange={onChangeKey28}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='5⮆' type="text" value={key28} onChange={onChangeKey28}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key29} onChange={onChangeKey29}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key30} onChange={onChangeKey30}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key31} onChange={onChangeKey31}></input></TableCell>
@@ -448,7 +500,7 @@ export default function Mission6() {
                         </TableRow>
                         <TableRow key="8">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='6⮞' type="text" value={key33} onChange={onChangeKey33}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='6⮆' type="text" value={key33} onChange={onChangeKey33}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key34} onChange={onChangeKey34}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key35} onChange={onChangeKey35}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -463,7 +515,7 @@ export default function Mission6() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='7⮞'type="text" value={key37} onChange={onChangeKey37}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='7⮆'type="text" value={key37} onChange={onChangeKey37}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key38} onChange={onChangeKey38}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key39} onChange={onChangeKey39}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key40} onChange={onChangeKey40}></input></TableCell>
@@ -475,7 +527,7 @@ export default function Mission6() {
                         </TableRow>
                         <TableRow key="10">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='8⮞' type="text" value={key43} onChange={onChangeKey43}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='8⮆' type="text" value={key43} onChange={onChangeKey43}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key44} onChange={onChangeKey44}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key45} onChange={onChangeKey45}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -490,7 +542,7 @@ export default function Mission6() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='9⮞' type="text" value={key46} onChange={onChangeKey46}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='9⮆' type="text" value={key46} onChange={onChangeKey46}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key47} onChange={onChangeKey47}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key48} onChange={onChangeKey48}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key49} onChange={onChangeKey49}></input></TableCell>
