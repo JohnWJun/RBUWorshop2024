@@ -14,7 +14,7 @@ export default function LuckyDraw() {
       
         <div className={style.header}>
                    <BackButton/>
-                   <h1>2024 Global Marketing Meeting <br/>Lucky Draw</h1>
+                   <h1>Lucky Draw</h1>
                        <Image
                        className={style.logo}
                        src="/parksystemsLogo.svg"
@@ -31,7 +31,7 @@ export default function LuckyDraw() {
         </div>
       
       <button className={style.drawButton}>
-        <Link href={'/roll'}>Draw Prize</Link></button>
+        <Link href={'luckyDraw/roll'}>Draw Prize</Link></button>
       
     </div>
   );

@@ -32,9 +32,9 @@ export default function Location() {
             <h3>Lunch</h3>
             <div className={style.bodyComponents}>
                     
-                <h5>설악막국수춘천닭갈비</h5>
-                <Link href="https://naver.me/FENynThz">
-                <strong>주소:</strong> 경기 가평군 설악면 신천중앙로 159 
+                <h5>금계숯불닭갈비</h5>
+                <Link href="https://naver.me/IMQpRXD4">
+                <strong>주소:</strong> 경기 가평군 설악면 유명로 1614 
                 <Image
                         className={style.icon}
                         src="/map.png"
@@ -50,7 +50,7 @@ export default function Location() {
                     src="/Lunch.jpg"
                     alt="lunch"
                     width={800}
-                    height={400}
+                    height={500}
                     priority
                     />
                     </div>

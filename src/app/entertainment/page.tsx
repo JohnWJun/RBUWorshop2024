@@ -118,7 +118,7 @@ export default function Entertainment() {
             <br/>
             <h3>Mission 2</h3>
             <div className={style.bodyComponents}>
-            <h2>도플갱어 첼린지 (문제당 5점 / 최대 80점!)</h2>
+            <h2>도플갱어 첼린지 (문제당 5점)</h2>
             <h5>사진의 주인공을 보시고 영화 또는 드라마제목을 최대한 많이 맞춰주세요.</h5>  
             </div>
             <br/>
@@ -132,21 +132,21 @@ export default function Entertainment() {
             <br/>
             <h3>Mission 4</h3>
             <div className={style.bodyComponents}>
-            <h2>뮤직왕 첼린지</h2>
+            <h2>뮤직왕 첼린지 (문제당 5점)</h2>
             <h5>제한시간안에 TTS 음성 가사만 듣고 어떤 노래인지 최대한 많이 맞춰주세요.</h5>  
             </div>
             <br/>
             <br/>
             <h3>Mission 5</h3>
             <div className={style.bodyComponents}>
-            <h2>넌 어느별에서 왔니? 첼린지</h2>
-            <h5>분리된 이목구비만 보고 누구인지 맞추기</h5>  
+            <h2>넌 어느별에서 왔니? 첼린지 (문제당 5점)</h2>
+            <h5>제한시간안에 분리된 이목구비만 보고 누구인지 맞춰 주세요.</h5>  
             </div>
             <br/>
             <br/>
             <h3>Mission 6</h3>
             <div className={style.bodyComponents}>
-            <h2>트릭샷 첼린지</h2>
+            <h2>트릭샷 첼린지 (30점 / 최대 50점)</h2>
             <h5>제시된 포즈 중 하나 선택해서 사진을 찍고 인스타그램에 업로드하면 미션 성공!</h5>  
             </div>
             <br/>

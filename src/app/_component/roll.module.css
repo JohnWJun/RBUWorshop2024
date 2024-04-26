@@ -34,13 +34,14 @@
 .drawButton{
     /* font-size: 20px; */
     /* width: 50%; */
-    color: white;
+    /* color: white; */
     padding: 10px 10px;
-    background:gainsboro;
     border-radius: 10px;
     border: none;
+    background: none;
   }
 .drawButton:hover{
+    background-color:gainsboro;
     font-size: 25px;
     cursor: pointer;
 }
@@ -217,6 +218,7 @@
     color: red;
 }
 
+
 @media screen and (max-width: 912px){
     .modalBackground {
         position: fixed;
@@ -227,6 +229,13 @@
     }
     .modalBody {
         padding: 0 10px;
+    }
+    .winner{
+        font-size: 100%;
+    }
+    .drawButton svg{
+        width: 80%;
+        height: 80%;
     }
 }
 @media screen and (max-width: 768px){

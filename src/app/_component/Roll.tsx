@@ -7,7 +7,8 @@ import {useRouter} from "next/navigation";
 
 export default function Roll(){
     // Define prizes
-const prizes = ['iPhone', 'iPad', 'Apple Watch', 'MacBook', 'AirPods'];
+    const prizes = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45'];
+
     const [winner, setWinner] = useState<string | null>(null);
     const [isRolling, setIsRolling]= useState<boolean | null>(false);
     const router = useRouter();
@@ -33,8 +34,12 @@ const prizes = ['iPhone', 'iPad', 'Apple Watch', 'MacBook', 'AirPods'];
             <div className={style.modal}>
                 <div className={style.modalHeader}>
                     <button onClick={onClickBack} className={style.closeButton}>
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1024 1024"><path fill="#000000" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z"/></svg>
-                    </button>
+                    <svg width={24} viewBox="0 0 24 24" aria-hidden="true"
+                 className="r-18jsvk2 r-4qtqp9 r-yyyyoo r-z80fyv r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-19wmn03">
+                <g>
+                    <path d="M7.414 13l5.043 5.04-1.414 1.42L3.586 12l7.457-7.46 1.414 1.42L7.414 11H21v2H7.414z"></path>
+                </g>
+            </svg></button>
                 </div>
                     <div className={style.modalBody}>
                     <button className={style.drawButton} onClick={handleLuckyDraw}>
@@ -46,7 +51,7 @@ const prizes = ['iPhone', 'iPad', 'Apple Watch', 'MacBook', 'AirPods'];
                         </div>
                     }
                     {winner && !isRolling && 
-                    <div className={style.winner}>Congratulations! <br/>The prize is... <br/><br/><h4>{winner}</h4>
+                    <div className={style.winner}>Congratulations! <br/>행운의 당첨자는!... <br/><br/><h4>{winner}번</h4>
                     </div>}
                     </div>
                 

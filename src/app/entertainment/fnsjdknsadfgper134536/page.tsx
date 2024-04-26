@@ -22,14 +22,21 @@ export default function Mission2() {
             <div className={style.mission}>
             
                 <h3>포토제닉 트릭샷 성공하기</h3>
-                <h5>도전하고자 하는 사진을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>
-               
+                <h5>도전하고자 하는 사진을 선택, 제출하기 버튼을 눌러 OneDrive에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>
+                <br/>
+                <br/>
+                <form>
+                <button>
+                <Link href='https://parkafm-my.sharepoint.com/:f:/g/personal/john_jun_parksystems_com/EgocRSWOIK1OqGeI4M0LFzQB28BTMasF8CwXgcn8sYNBpg?e=XLa8sn'>제출하기</Link>
+                </button>
+               </form>
                <div className={style.passcode}>
                 <input name={"passcode"} value={key1} onChange={onChangeKey1} placeholder={'패스코드를 입력하세요'}></input>
-            
                </div>
                <br/>
                <br/>
+               
+               
                <h5>트릭샷 첼린지 Option 1 (보너스 점수 +20)</h5>
                <div  className={style.videoBox}>
                <Image
@@ -40,8 +47,7 @@ export default function Mission2() {
                     priority
                     />
                </div>
-               <br/>
-               <br/>
+              
                <h5>트릭샷 첼린지 Option 2 (보너스 점수 +20)</h5>
                 <div  className={style.videoBox}>
                 <Image

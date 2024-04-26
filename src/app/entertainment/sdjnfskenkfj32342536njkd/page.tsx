@@ -22,8 +22,14 @@ export default function Mission1() {
             <div className={style.mission}>
             
                 <h3>틱톡 첼린지</h3>
-                <h5>도전하고자 하는 댄스 영상을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>
-               
+                <h5>도전하고자 하는 댄스 영상을 선택, 제출하기 버튼을 눌러 OneDrive에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>
+                <br/>
+                <br/>
+                <form>
+                <button>
+                <Link href='https://parkafm-my.sharepoint.com/:f:/g/personal/john_jun_parksystems_com/EsplEMlkSuRNofhBBAkg1cEBXA3c2rvHHIIK5qaqt8ZFIA?e=Sg5BYb'>제출하기</Link>
+                </button>
+               </form>
                <div className={style.passcode}>
                 <input name={"passcode"} value={key1} onChange={onChangeKey1} placeholder={'패스코드를 입력하세요'}></input>
             
