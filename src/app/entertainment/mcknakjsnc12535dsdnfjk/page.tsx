@@ -402,11 +402,11 @@ export default function Mission6() {
                     <TableBody>
                         <TableRow key="1">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='1⮆' type="text" value={key1} onChange={onChangeKey1}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='1⇊'type="text" value={key2} onChange={onChangeKey2}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='1→' type="text" value={key1} onChange={onChangeKey1}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='1↓'type="text" value={key2} onChange={onChangeKey2}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key3} onChange={onChangeKey3}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key4} onChange={onChangeKey4}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='2⇊' type="text" value={key5} onChange={onChangeKey5}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='2↓' type="text" value={key5} onChange={onChangeKey5}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -419,7 +419,7 @@ export default function Mission6() {
                             <TableCell ><input className={style.input} type="text" value={key6} onChange={onChangeKey6}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='2⮆' type="text" value={key7} onChange={onChangeKey7}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='2→' type="text" value={key7} onChange={onChangeKey7}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key8} onChange={onChangeKey8}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key9} onChange={onChangeKey9}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key10} onChange={onChangeKey10}></input></TableCell>
@@ -441,7 +441,7 @@ export default function Mission6() {
                         </TableRow> 
                         <TableRow key="4">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='3⮆' type="text" value={key13} onChange={onChangeKey13}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='3→' type="text" value={key13} onChange={onChangeKey13}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key14} onChange={onChangeKey14}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key15} onChange={onChangeKey15}></input></TableCell>
             
@@ -469,9 +469,9 @@ export default function Mission6() {
                         </TableRow>
                         <TableRow key="6">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='4⮆' type="text" value={key22} onChange={onChangeKey22}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='4→' type="text" value={key22} onChange={onChangeKey22}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key23} onChange={onChangeKey23}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='3⇊' type="text" value={key24} onChange={onChangeKey24}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='3↓' type="text" value={key24} onChange={onChangeKey24}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key25} onChange={onChangeKey25}></input></TableCell>
                  
                             <TableCell ><input className={style.input} type="text" value={key26} onChange={onChangeKey26}></input></TableCell>
@@ -490,7 +490,7 @@ export default function Mission6() {
                             
                             <TableCell ><input className={style.input} type="text" value={key27} onChange={onChangeKey27}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='5⮆' type="text" value={key28} onChange={onChangeKey28}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='5→' type="text" value={key28} onChange={onChangeKey28}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key29} onChange={onChangeKey29}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key30} onChange={onChangeKey30}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key31} onChange={onChangeKey31}></input></TableCell>
@@ -500,7 +500,7 @@ export default function Mission6() {
                         </TableRow>
                         <TableRow key="8">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='6⮆' type="text" value={key33} onChange={onChangeKey33}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='6→' type="text" value={key33} onChange={onChangeKey33}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key34} onChange={onChangeKey34}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key35} onChange={onChangeKey35}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -515,7 +515,7 @@ export default function Mission6() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='7⮆'type="text" value={key37} onChange={onChangeKey37}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='7→'type="text" value={key37} onChange={onChangeKey37}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key38} onChange={onChangeKey38}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key39} onChange={onChangeKey39}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key40} onChange={onChangeKey40}></input></TableCell>
@@ -527,7 +527,7 @@ export default function Mission6() {
                         </TableRow>
                         <TableRow key="10">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='8⮆' type="text" value={key43} onChange={onChangeKey43}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='8→' type="text" value={key43} onChange={onChangeKey43}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key44} onChange={onChangeKey44}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key45} onChange={onChangeKey45}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -542,7 +542,7 @@ export default function Mission6() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='9⮆' type="text" value={key46} onChange={onChangeKey46}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='9→' type="text" value={key46} onChange={onChangeKey46}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key47} onChange={onChangeKey47}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key48} onChange={onChangeKey48}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key49} onChange={onChangeKey49}></input></TableCell>
