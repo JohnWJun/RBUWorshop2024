@@ -14,7 +14,10 @@ export default function MissionSuccessPage({mission,point}:Props){
     const router = useRouter();
     const [page, setPage] = useState(1);
 
-
+    const missionName = mission;
+    if(missionName){
+        localStorage.setItem(mission, String(point));
+    }
     const onClickBack = () => {
         router.replace('/');
     };

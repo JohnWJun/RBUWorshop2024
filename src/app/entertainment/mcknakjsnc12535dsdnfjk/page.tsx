@@ -8,8 +8,8 @@ import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} 
 import Link from "next/link";
 import MissionSuccessPage from '@/app/_component/MissionSuccessPage';
 
-export default function Mission6() {
-   
+export default function Mission7() {
+
     const [key1, setKey1] = useState('');
     const [key2, setKey2] = useState('');
     const [key3, setKey3] = useState('');
@@ -61,11 +61,11 @@ export default function Mission6() {
     const [key49, setKey49] = useState('');
     const [key50, setKey50] = useState('');
     
-    const answer1 = 'a';
-    const answer2 = 'b';
-    const answer3 = 'c';
-    const answer4 = 'd';
-    const answer5 = 'e';
+    const answer1 = 'A';
+    const answer2 = 'B';
+    const answer3 = 'C';
+    const answer4 = 'D';
+    const answer5 = 'E';
     const answer6 = 'f';
     const answer7 = 'g';
     const answer8 = 'h';
@@ -117,6 +117,10 @@ export default function Mission6() {
     
     const onChangeKey1: ChangeEventHandler<HTMLInputElement> = (e) => {
         setKey1(e.target.value.toUpperCase());
+        if(key1 === answer1){
+            var inputs = document.querySelectorAll("input")
+            inputs[0].style.color = 'green';
+        }
     }
     
     const onChangeKey2: ChangeEventHandler<HTMLInputElement> = (e) => {
@@ -371,6 +375,7 @@ export default function Mission6() {
         ){
             setSuccess(true);
         }
+        
     }
     
     
@@ -381,7 +386,7 @@ export default function Mission6() {
                 <h3>모두의 모드 첼린지</h3>
                 <h5>각종 Mode들을 포함한 파크인이라면 알아야할 AFM기초 지식을 테스트하며 십자말 풀이를 완성하면 미션 성공! </h5>
                 <br/>
-                <h5>모든 글자가 정답일 경우에만 성공 페이지가 열립니다. (대문자 소문자 상관 X)</h5>
+                <h5>해당 라인을 올바로 채우면 빨간 칸들이 초록 칸들로 바뀝니다. 모든 글자가 정답일 경우에만 성공 페이지가 열립니다. (대문자 소문자 상관 X)</h5>
                 <br/>
                 <br/>
                 <form onSubmit={onSubmit}>
@@ -402,11 +407,11 @@ export default function Mission6() {
                     <TableBody>
                         <TableRow key="1">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='1→' type="text" value={key1} onChange={onChangeKey1}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='1↓'type="text" value={key2} onChange={onChangeKey2}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key3} onChange={onChangeKey3}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key4} onChange={onChangeKey4}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='2↓' type="text" value={key5} onChange={onChangeKey5}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key1+key2+key3+key4+key5 === '' ? 'transparent' : key1+key2+key3+key4+key5 === 'ABCDE' ? 'lightgreen' : 'lightcoral'}} placeholder='1→' type="text" value={key1} onChange={onChangeKey1}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key1+key2+key3+key4+key5 === '' ? 'transparent' : key1+key2+key3+key4+key5 === 'ABCDE' ? 'lightgreen' : 'lightcoral'}} placeholder='1↓'type="text" value={key2} onChange={onChangeKey2}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key1+key2+key3+key4+key5 === '' ? 'transparent' : key1+key2+key3+key4+key5 === 'ABCDE' ? 'lightgreen' : 'lightcoral'}}type="text" value={key3} onChange={onChangeKey3}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key1+key2+key3+key4+key5 === '' ? 'transparent' : key1+key2+key3+key4+key5 === 'ABCDE' ? 'lightgreen' : 'lightcoral'}}type="text" value={key4} onChange={onChangeKey4}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key1+key2+key3+key4+key5 === '' ? 'transparent' : key1+key2+key3+key4+key5 === 'ABCDE' ? 'lightgreen' : 'lightcoral'}}placeholder='2↓' type="text" value={key5} onChange={onChangeKey5}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -419,10 +424,10 @@ export default function Mission6() {
                             <TableCell ><input className={style.input} type="text" value={key6} onChange={onChangeKey6}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='2→' type="text" value={key7} onChange={onChangeKey7}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key8} onChange={onChangeKey8}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key9} onChange={onChangeKey9}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key10} onChange={onChangeKey10}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key7+key8+key9+key10 === '' ? 'transparent' : key7+key8+key9+key10 === 'ABCD' ? 'lightgreen' : 'lightcoral'}} placeholder='2→' type="text" value={key7} onChange={onChangeKey7}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key7+key8+key9+key10 === '' ? 'transparent' : key7+key8+key9+key10 === 'ABCD' ? 'lightgreen' : 'lightcoral'}}  type="text" value={key8} onChange={onChangeKey8}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key7+key8+key9+key10 === '' ? 'transparent' : key7+key8+key9+key10 === 'ABCD' ? 'lightgreen' : 'lightcoral'}}  type="text" value={key9} onChange={onChangeKey9}></input></TableCell>
+                            <TableCell ><input className={style.input} style={{backgroundColor: key7+key8+key9+key10 === '' ? 'transparent' : key7+key8+key9+key10 === 'ABCD' ? 'lightgreen' : 'lightcoral'}}  type="text" value={key10} onChange={onChangeKey10}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                         </TableRow> 

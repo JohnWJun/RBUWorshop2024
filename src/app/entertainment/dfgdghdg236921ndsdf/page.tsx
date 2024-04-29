@@ -8,7 +8,7 @@ import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} 
 import Link from "next/link";
 import MissionSuccessPage from '@/app/_component/MissionSuccessPage';
 
-export default function Mission4() {
+export default function Mission2() {
    
     const [key1, setKey1] = useState('');
 
