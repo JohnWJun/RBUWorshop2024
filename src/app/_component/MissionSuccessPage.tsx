@@ -1,6 +1,6 @@
 "use client";
 // Importing necessary libraries
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import style from '@/app/_component/missionSuccessPage.module.css';
 import {useRouter} from "next/navigation";
 import Image from 'next/image';
@@ -12,12 +12,11 @@ type Props ={
 
 export default function MissionSuccessPage({mission,point}:Props){
     const router = useRouter();
-    const [page, setPage] = useState(1);
-
-    const missionName = mission;
-    if(missionName){
+    
+    useEffect(() => {
         localStorage.setItem(mission, String(point));
-    }
+    }, [mission, point]);
+
     const onClickBack = () => {
         router.replace('/');
     };
