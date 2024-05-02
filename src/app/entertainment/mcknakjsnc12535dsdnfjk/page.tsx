@@ -60,59 +60,74 @@ export default function Mission7() {
     const [key48, setKey48] = useState('');
     const [key49, setKey49] = useState('');
     const [key50, setKey50] = useState('');
-    
-    const answer1 = 'A';
-    const answer2 = 'B';
-    const answer3 = 'C';
-    const answer4 = 'D';
+    const [key51, setKey51] = useState('');
+    const [key52, setKey52] = useState('');
+    const [key53, setKey53] = useState('');
+    const [key54, setKey54] = useState('');
+    const [key55, setKey55] = useState('');
+    const [key56, setKey56] = useState('');
+    const [key57, setKey57] = useState('');
+    const [key58, setKey58] = useState('');
+    const [key59, setKey59] = useState('');
+    const [key60, setKey60] = useState('');
+
+    const answer1 = 'D';
+    const answer2 = 'R';
+    const answer3 = 'I';
+    const answer4 = 'V';
     const answer5 = 'E';
-    const answer6 = 'f';
-    const answer7 = 'g';
-    const answer8 = 'h';
-    const answer9 = 'i';
-    const answer10 = 'j';
-    const answer11 = 'k';
-    const answer12 = 'l';
-    const answer13 = 'm';
-    const answer14 = 'n';
-    const answer15 = 'o';
-    const answer16 = 'p';
-    const answer17 = 'q';
-    const answer18 = 'r';
-    const answer19 = 's';
-    const answer20 = 't';
-    const answer21 = 'u';
-    const answer22 = 'v';
-    const answer23 = 'w';
-    const answer24 = 'x';
-    const answer25 = 'y';
-    const answer26 = 'z';
-    const answer27 = 'aa';
-    const answer28 = 'ab';
-    const answer29 = 'ac';
-    const answer30 = 'ad';
-    const answer31 = 'ae';
-    const answer32 = 'af';
-    const answer33 = 'ag';
-    const answer34 = 'ah';
-    const answer35 = 'ai';
-    const answer36 = 'aj';
-    const answer37 = 'ak';
-    const answer38 = 'al';
-    const answer39 = 'am';
-    const answer40 = 'an';
-    const answer41 = 'ao';
-    const answer42 = 'ap';
-    const answer43 = 'aq';
-    const answer44 = 'ar';
-    const answer45 = 'as';
-    const answer46 = 'at';
-    const answer47 = 'au';
-    const answer48 = 'av';
-    const answer49 = 'aw';
-    const answer50 = 'ax';
-
-
+    const answer6 = 'E';
+    const answer7 = 'Q';
+    const answer8 = 'U';
+    const answer9 = 'A';
+    const answer10 = 'L';
+    const answer11 = 'I';
+    const answer12 = 'T';
+    const answer13 = 'Y';
+    const answer14 = 'B';
+    const answer15 = 'U';
+    const answer16 = 'C';
+    const answer17 = 'O';
+    const answer18 = 'N';
+    const answer19 = 'D';
+    const answer20 = 'U';
+    const answer21 = 'C';
+    const answer22 = 'T';
+    const answer23 = 'I';
+    const answer24 = 'V';
+    const answer25 = 'E';
+    const answer26 = 'P';
+    const answer27 = 'V';
+    const answer28 = 'A';
+    const answer29 = 'C';
+    const answer30 = 'U';
+    const answer31 = 'U';
+    const answer32 = 'M';
+    const answer33 = 'P';
+    const answer34 = 'E';
+    const answer35 = 'M';
+    const answer36 = 'A';
+    const answer37 = 'I';
+    const answer38 = 'L';
+    const answer39 = 'S';
+    const answer40 = 'L';
+    const answer41 = 'D';
+    const answer42 = 'A';
+    const answer43 = 'T';
+    const answer44 = 'T';
+    const answer45 = 'R';
+    const answer46 = 'A';
+    const answer47 = 'C';
+    const answer48 = 'T';
+    const answer49 = 'R';
+    const answer50 = 'A';
+    const answer51 = 'T';
+    const answer52 = 'E';
+    const answer53 = 'C';
+    const answer54 = 'A';
+    const answer55 = 'F';
+    const answer56 = 'M';
+    
     const [success, setSuccess] = useState(false);
     
     const onChangeKey1: ChangeEventHandler<HTMLInputElement> = (e) => {
@@ -318,6 +333,25 @@ export default function Mission7() {
     const onChangeKey50: ChangeEventHandler<HTMLInputElement> = (e) => {
         setKey50(e.target.value.toUpperCase());
     }
+    const onChangeKey51: ChangeEventHandler<HTMLInputElement> = (e) => {
+        setKey51(e.target.value.toUpperCase());
+    }
+    const onChangeKey52: ChangeEventHandler<HTMLInputElement> = (e) => {
+        setKey52(e.target.value.toUpperCase());
+    }
+    const onChangeKey53: ChangeEventHandler<HTMLInputElement> = (e) => {
+        setKey53(e.target.value.toUpperCase());
+    }
+    const onChangeKey54: ChangeEventHandler<HTMLInputElement> = (e) => {
+        setKey54(e.target.value.toUpperCase());
+    }
+    const onChangeKey55: ChangeEventHandler<HTMLInputElement> = (e) => {
+        setKey55(e.target.value.toUpperCase());
+    }
+    const onChangeKey56: ChangeEventHandler<HTMLInputElement> = (e) => {
+        setKey56(e.target.value.toUpperCase());
+    }
+  
     
     const onSubmit : FormEventHandler = async (e) => {
         e.preventDefault();
@@ -371,7 +405,14 @@ export default function Mission7() {
             key47 === answer47 &&
             key48 === answer48 &&
             key49 === answer49 &&
-            key50 === answer50
+            key50 === answer50 &&
+            key51 === answer51 &&
+            key52 === answer52 &&
+            key53 === answer53 &&
+            key54 === answer54 &&
+            key55 === answer55 &&
+            key56 === answer56 
+
         ){
             setSuccess(true);
         }
@@ -403,9 +444,17 @@ export default function Mission7() {
                         <TableColumn className={style.dark}> </TableColumn>
                         <TableColumn className={style.dark}> </TableColumn>
                         <TableColumn className={style.dark}> </TableColumn>
+                        <TableColumn className={style.dark}> </TableColumn>
+                        <TableColumn className={style.dark}> </TableColumn>
+                        <TableColumn className={style.dark}> </TableColumn>
+                        <TableColumn className={style.dark}> </TableColumn>
+                        <TableColumn className={style.dark}> </TableColumn>
                     </TableHeader>
                     <TableBody>
                         <TableRow key="1">
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell ><input className={style.input} style={{backgroundColor: key1+key2+key3+key4+key5 === '' ? 'transparent' : key1+key2+key3+key4+key5 === 'ABCDE' ? 'lightgreen' : 'lightcoral'}} placeholder='1→' type="text" value={key1} onChange={onChangeKey1}></input></TableCell>
                             <TableCell ><input className={style.input} style={{backgroundColor: key1+key2+key3+key4+key5 === '' ? 'transparent' : key1+key2+key3+key4+key5 === 'ABCDE' ? 'lightgreen' : 'lightcoral'}} placeholder='1↓'type="text" value={key2} onChange={onChangeKey2}></input></TableCell>
@@ -417,8 +466,13 @@ export default function Mission7() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                         </TableRow>  
                         <TableRow key="2">
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell ><input className={style.input} type="text" value={key6} onChange={onChangeKey6}></input></TableCell>
@@ -428,36 +482,53 @@ export default function Mission7() {
                             <TableCell ><input className={style.input} style={{backgroundColor: key7+key8+key9+key10 === '' ? 'transparent' : key7+key8+key9+key10 === 'ABCD' ? 'lightgreen' : 'lightcoral'}}  type="text" value={key8} onChange={onChangeKey8}></input></TableCell>
                             <TableCell ><input className={style.input} style={{backgroundColor: key7+key8+key9+key10 === '' ? 'transparent' : key7+key8+key9+key10 === 'ABCD' ? 'lightgreen' : 'lightcoral'}}  type="text" value={key9} onChange={onChangeKey9}></input></TableCell>
                             <TableCell ><input className={style.input} style={{backgroundColor: key7+key8+key9+key10 === '' ? 'transparent' : key7+key8+key9+key10 === 'ABCD' ? 'lightgreen' : 'lightcoral'}}  type="text" value={key10} onChange={onChangeKey10}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key11} onChange={onChangeKey11}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key12} onChange={onChangeKey12}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='3→' type="text" value={key13} onChange={onChangeKey13}></input></TableCell>
+                            
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell className={style.dark}> </TableCell>
+                            
                         </TableRow> 
                         <TableRow key="3">
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key11} onChange={onChangeKey11}></input></TableCell>
-                            <TableCell className={style.dark}> </TableCell>
-                            <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key12} onChange={onChangeKey12}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key14} onChange={onChangeKey14}></input></TableCell>
+                            
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key15} onChange={onChangeKey15}></input></TableCell>
+                            
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+
                         </TableRow> 
                         <TableRow key="4">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='3→' type="text" value={key13} onChange={onChangeKey13}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key14} onChange={onChangeKey14}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key15} onChange={onChangeKey15}></input></TableCell>
-            
+                            
                             <TableCell ><input className={style.input} type="text" value={key16} onChange={onChangeKey16}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key17} onChange={onChangeKey17}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key18} onChange={onChangeKey18}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key19} onChange={onChangeKey19}></input></TableCell>
                             <TableCell ><input className={style.input} type="text" value={key20} onChange={onChangeKey20}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key21} onChange={onChangeKey21}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='4→' type="text" value={key22} onChange={onChangeKey22}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key23} onChange={onChangeKey23}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key24} onChange={onChangeKey24}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='4→' type="text" value={key25} onChange={onChangeKey25}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             
-                            <TableCell className={style.dark}> </TableCell>
-                            <TableCell className={style.dark}> </TableCell>
                         </TableRow>
                         <TableRow key="5">
                             <TableCell className={style.dark}> </TableCell>
@@ -465,7 +536,14 @@ export default function Mission7() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key21} onChange={onChangeKey21}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key26} onChange={onChangeKey26}></input></TableCell>
+                            
+                            
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -474,42 +552,59 @@ export default function Mission7() {
                         </TableRow>
                         <TableRow key="6">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='4→' type="text" value={key22} onChange={onChangeKey22}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key23} onChange={onChangeKey23}></input></TableCell>
-                            <TableCell ><input className={style.input} placeholder='3↓' type="text" value={key24} onChange={onChangeKey24}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key25} onChange={onChangeKey25}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} placeholder='3↓' type="text" value={key27} onChange={onChangeKey27}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key28} onChange={onChangeKey28}></input></TableCell>
                  
-                            <TableCell ><input className={style.input} type="text" value={key26} onChange={onChangeKey26}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key29} onChange={onChangeKey29}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key30} onChange={onChangeKey30}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='5→' type="text" value={key31} onChange={onChangeKey31}></input></TableCell>
+                            <TableCell ><input className={style.input} placeholder='5→' type="text" value={key32} onChange={onChangeKey32}></input></TableCell>
+                            
+                            
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            
                         </TableRow>
                         <TableRow key="7">
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            
-                            
-                            
-                            <TableCell ><input className={style.input} type="text" value={key27} onChange={onChangeKey27}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='5→' type="text" value={key28} onChange={onChangeKey28}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key29} onChange={onChangeKey29}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key30} onChange={onChangeKey30}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key31} onChange={onChangeKey31}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key32} onChange={onChangeKey32}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             
+                            <TableCell ><input className={style.input} type="text" value={key33} onChange={onChangeKey33}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} placeholder='5→' type="text" value={key34} onChange={onChangeKey34}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key35} onChange={onChangeKey35}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key36} onChange={onChangeKey36}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key37} onChange={onChangeKey37}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key38} onChange={onChangeKey38}></input></TableCell>
+                            
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                         </TableRow>
                         <TableRow key="8">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='6→' type="text" value={key33} onChange={onChangeKey33}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key34} onChange={onChangeKey34}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key35} onChange={onChangeKey35}></input></TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key36} onChange={onChangeKey36}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} placeholder='6→' type="text" value={key39} onChange={onChangeKey39}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key40} onChange={onChangeKey40}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key41} onChange={onChangeKey41}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key42} onChange={onChangeKey42}></input></TableCell>
+                            
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -520,21 +615,34 @@ export default function Mission7() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='7→'type="text" value={key37} onChange={onChangeKey37}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key38} onChange={onChangeKey38}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key39} onChange={onChangeKey39}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key40} onChange={onChangeKey40}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key41} onChange={onChangeKey41}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key42} onChange={onChangeKey42}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} placeholder='7→'type="text" value={key43} onChange={onChangeKey43}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key44} onChange={onChangeKey44}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key45} onChange={onChangeKey45}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key46} onChange={onChangeKey46}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key47} onChange={onChangeKey47}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key48} onChange={onChangeKey48}></input></TableCell>
+                            
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             
                         </TableRow>
                         <TableRow key="10">
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='8→' type="text" value={key43} onChange={onChangeKey43}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key44} onChange={onChangeKey44}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key45} onChange={onChangeKey45}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} placeholder='8→' type="text" value={key49} onChange={onChangeKey49}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key50} onChange={onChangeKey50}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key51} onChange={onChangeKey51}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            
+                            
+                            <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -547,11 +655,17 @@ export default function Mission7() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
-                            <TableCell ><input className={style.input} placeholder='9→' type="text" value={key46} onChange={onChangeKey46}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key47} onChange={onChangeKey47}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key48} onChange={onChangeKey48}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key49} onChange={onChangeKey49}></input></TableCell>
-                            <TableCell ><input className={style.input} type="text" value={key50} onChange={onChangeKey50}></input></TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell ><input className={style.input} placeholder='9→' type="text" value={key52} onChange={onChangeKey52}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key53} onChange={onChangeKey53}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key54} onChange={onChangeKey54}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key55} onChange={onChangeKey55}></input></TableCell>
+                            <TableCell ><input className={style.input} type="text" value={key56} onChange={onChangeKey56}></input></TableCell>
+                            
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
@@ -568,7 +682,13 @@ export default function Mission7() {
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
                             <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
+                            <TableCell className={style.dark}> </TableCell>
                         </TableRow>
+                        
                     </TableBody>
                 </Table>
                 <br/>
