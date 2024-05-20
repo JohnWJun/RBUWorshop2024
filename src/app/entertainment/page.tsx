@@ -78,7 +78,7 @@ export default function Entertainment() {
 
                 <div className={style.group}>
                 <h5>Team D</h5>  	
-                이정애, 강도희, 김건우, 박승민, 장서균, 하승섭(임시 조장)
+                이정애, 강도희, 김건우, 하승섭(임시 조장), 박승민, 장서균 
                 </div>
 
                 <div className={style.group}>
@@ -157,7 +157,7 @@ export default function Entertainment() {
             
             <div className={style.bodyComponents}>
             <h3>Mission 1</h3>
-            <h2>틱톡 첼린지(50점 / 최대 90점!)</h2>
+            <h2>틱톡 챌린지(50점 / 최대 90점!)</h2>
             <h5>도전하고자 하는 댄스 영상을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>     
             </div>
             </>
@@ -165,7 +165,7 @@ export default function Entertainment() {
                 
             <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
             <h3>Mission 1</h3>
-            <h2 >Clear! 획득 점수: {mission1ClearPoint}+α</h2>
+            <h2 >Clear! 획득 점수: {mission1ClearPoint}</h2>
             <h5>도전하고자 하는 댄스 영상을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>     
             </div>
             </>

@@ -27,7 +27,7 @@ export default function Mission6() {
                 <br/>
                 <form>
                 <button>
-                <Link href='https://parkafm-my.sharepoint.com/:f:/g/personal/john_jun_parksystems_com/EgocRSWOIK1OqGeI4M0LFzQB28BTMasF8CwXgcn8sYNBpg?e=XLa8sn'>제출하기</Link>
+                <Link href='https://parkafm.sharepoint.com/:f:/r/sites/RBU/Shared%20Documents/General/2024%20RBU%20Workshop/%EB%A0%88%ED%81%AC%EB%A0%88%EC%9D%B4%EC%85%98%20(%EC%9B%8C%ED%81%AC%EC%83%B5%20%EC%A0%84%EA%B9%8C%EC%A7%80%20%EB%93%A4%EC%96%B4%EA%B0%80%EC%A7%80%20%EB%A7%90%EC%95%84%EC%A3%BC%EC%84%B8%EC%9A%94...)/%ED%8A%B8%EB%A6%AD%EC%83%B7%EC%B1%8C%EB%A6%B0%EC%A7%80?csf=1&web=1&e=jD4YrP'>제출하기</Link>
                 </button>
                </form>
                <div className={style.passcode}>
