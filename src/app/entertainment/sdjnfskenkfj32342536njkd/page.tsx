@@ -39,21 +39,27 @@ export default function Mission1() {
                <h5>틱톡 첼린지 Option 1</h5>
                <div  className={style.videoBox}>
                
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/mEGsNu-aNXI?si=eJgTi1dSvhqjx9RP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/xvGDS6EovKY?si=QOGQoL5Dik72pW1G" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                </div>
                <br/>
                <br/>
                <h5>틱톡 첼린지 Option 2</h5>
                 <div  className={style.videoBox}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mEGsNu-aNXI?si=eJgTi1dSvhqjx9RP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iP3IlzVNVws?si=atU6EsjJnx1DrrXt" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                </div>
                <br/>
                <br/>
-               <h5>틱톡 첼린지 Option 3</h5>
+               <h5>틱톡 첼린지 보너스 미션!(40점)</h5>
                 <div  className={style.videoBox}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mEGsNu-aNXI?si=eJgTi1dSvhqjx9RP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-               
+                <br/>
+               <br/>
+                <form>
+                <button>
+                <Link href="https://youtube.com/shorts/mZPkoLfdGQg?si=alLQv9GSy-dDQPyj">
+                    미션 확인하기
+                </Link>
+                </button>
+                </form>
                </div>
             {key1 === 'jsx20453@' ? (<MissionSuccessPage mission='틱톡첼린지' point={50} />) : null}
             </div>

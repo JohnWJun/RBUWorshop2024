@@ -7,6 +7,7 @@ import Image from 'next/image';
 import Link from "next/link";
 
 export default function Entertainment() {
+    const [mission0ClearPoint, setMission0ClearPoint] = useState(0);
     const [mission1ClearPoint, setMission1ClearPoint] = useState(0);
     const [mission2ClearPoint, setMission2ClearPoint] = useState(0);
     const [mission3ClearPoint, setMission3ClearPoint] = useState(0);
@@ -17,7 +18,7 @@ export default function Entertainment() {
 
     
     useEffect(() => {
-    
+    setMission0ClearPoint(Number(localStorage.getItem('히든미션 파키의 선물')) || 0);
      setMission1ClearPoint(Number(localStorage.getItem('틱톡첼린지')) || 0);
      setMission2ClearPoint(Number(localStorage.getItem('도플갱어첼린지')) || 0);
      setMission3ClearPoint(Number(localStorage.getItem('퀴즈첼린지')) || 0);
@@ -28,6 +29,7 @@ export default function Entertainment() {
     }, []);
    
     let total = (
+        (mission0ClearPoint ?? 0) +
         (mission1ClearPoint ?? 0) +
         (mission2ClearPoint ?? 0) +
         (mission3ClearPoint ?? 0) +
@@ -56,37 +58,37 @@ export default function Entertainment() {
             <div className={style.bodyComponents}>
                 <div className={style.group}>
                 <h5>Event Running Team</h5>
-                김영훈, 권민정, 권지오, 전우현, 정다원, 홍석한
+                박성복, 김영훈, 권민정, 권지오, 전우현, 정다원, 홍석한
                 </div>
 
                 <div className={style.group}>
                 <h5>Team A</h5>
-                조상준, 김보형, 정진주, 이철기, 박정미, 오예진
+                조상준, 김보형, 정진주, 이철기, 박정미(임시 조장), 오예진
                 </div>
 
                 <div className={style.group}>
                 <h5>Team B</h5>
-                양경득, 이주엽, 정다워, 지영지, 정동환, 하승섭
+                양경득, 이주엽, 정다워, 지영지, 정동환(임시 조장), Yaya Wagatsuma (PSJ)
                 </div>
 
                 <div className={style.group}>
                 <h5>Team C</h5>
-                이윤경, 김철수, 장영운, 마려나, 윤혜원, 최자양
+                이윤경, 김철수, 장영운, 마려나, 윤혜원(임시 조장), 최자양
                 </div>
 
                 <div className={style.group}>
-                <h5>Team D</h5>
-                이정애, 강도희, 박성복, 김건우, 박승민, 장서균
+                <h5>Team D</h5>  	
+                이정애, 강도희, 김건우, 박승민, 장서균, 하승섭(임시 조장)
                 </div>
 
                 <div className={style.group}>
                 <h5>Team E</h5>
-                강봉우, 유현주, 김민철, 차윤미, 김강산, 권대현 
+                강봉우, 유현주, 김민철, 차윤미(임시 조장), 김강산, 권대현 
                  </div>
                  
                 <div className={style.group}>
                 <h5>Team F</h5>
-                김성오, 원당광, 신혜진, 함선규, 아야즈, 김승미
+                김성오, 원당광, 신혜진, 함선규(임시 조장), 아야즈, 김승미
                  </div>
             </div>
             <br/>
@@ -132,6 +134,25 @@ export default function Entertainment() {
                 
             </div>
             <h3>총 획득한 점수: {total}점</h3>
+            {!mission0ClearPoint ? (<>
+            
+            <div className={style.bodyComponents}>
+            <h3>히든 미션</h3>
+            <h2>파키의 선물</h2>
+            <h5>어딘가에 숨어있는 파키의 선물을 찾아보세요!</h5>     
+            </div>
+            </>
+            ):(<>
+                
+            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <h3>히든 미션</h3>
+            <h2 >Clear! 획득 점수: {mission0ClearPoint}</h2>
+            <h5>찾았다! 파키의 선물!</h5>     
+            </div>
+            </>
+                )}
+            <br/>
+            <br/>
             {!mission1ClearPoint ? (<>
             
             <div className={style.bodyComponents}>

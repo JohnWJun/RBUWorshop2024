@@ -35,7 +35,7 @@ export default function Mission5() {
                 {key1 === 'skoasdvansdm&&@5' ? (<MissionSuccessPage mission='어느별첼린지' point={25} />) : null}
                 {key1 === 'skoasdvansdm&&@6' ? (<MissionSuccessPage mission='어느별첼린지' point={30} />) : null}
                 {key1 === 'skoasdvansdm&&@7' ? (<MissionSuccessPage mission='어느별첼린지' point={35} />) : null}
-                {key1 === 'skoasdvansdm&&@8' ? (<MissionSuccessPage mission='어느별첼린지' point={40} />) : null}
+                {/* {key1 === 'skoasdvansdm&&@8' ? (<MissionSuccessPage mission='어느별첼린지' point={40} />) : null} */}
            
          </div>
         </div>

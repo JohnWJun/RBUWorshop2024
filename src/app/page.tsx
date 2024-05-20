@@ -66,7 +66,7 @@ export default function Home() {
           className={styles.card}
         >
           <h2>
-            Education<span>-&gt;</span>
+            Presentation<span>-&gt;</span>
           </h2>
           <p>PPTs and educational resources</p>
         </Link>
@@ -131,7 +131,7 @@ export default function Home() {
           <p>Leave any questions here</p>
         </Link> */}
 
-        {/* <Link
+        <Link
           href="/survey"
           className={styles.card}
         >
@@ -139,7 +139,7 @@ export default function Home() {
             Survey<span>-&gt;</span>
           </h2>
           <p>Please leave a meaningful message for improvement</p>
-        </Link> */}
+        </Link>
       </div>
       
        {/* <div className={styles.footer}>

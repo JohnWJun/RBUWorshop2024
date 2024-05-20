@@ -35,7 +35,7 @@ export default function Mission4() {
                 {key1 === 'sdfsdfbe2256**5' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={25} />) : null}
                 {key1 === 'sdfsdfbe2256**6' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={30} />) : null}
                 {key1 === 'sdfsdfbe2256**7' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={35} />) : null}
-                {key1 === 'sdfsdfbe2256**8' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={40} />) : null}
+                {/* {key1 === 'sdfsdfbe2256**8' ? (<MissionSuccessPage mission='뮤직왕첼린지' point={40} />) : null} */}
            
          </div>
         </div>

@@ -36,10 +36,10 @@ export default function Ebook() {
                 <div className={style.dayHeader}>
                 
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EYXF9ynyJKJJg_G7JqIh9jIBrZgM9-UE74WfbKtSPIfMGA?e=40Qwvd'}><h4>Key Note Speech</h4></Link>
+                    <Link href={'/'}><h4>Key Note Speech (TBU)</h4></Link>
                     </button>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EYXF9ynyJKJJg_G7JqIh9jIBrZgM9-UE74WfbKtSPIfMGA?e=40Qwvd'}><h4>초청 강의</h4></Link>
+                    <Link href={'/'}><h4>초청 강의 (TBU)</h4></Link>
                     </button>
 
             </div>

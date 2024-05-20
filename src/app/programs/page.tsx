@@ -63,20 +63,24 @@ export default function Programs() {
                                 <TableCell className={style.cell2}>숙소 도착 및 짐 정리</TableCell>
                             </TableRow>
                             <TableRow key="4">
-                            <TableCell className={style.cell1}>14:00 ~ 15:30</TableCell>
-                            <TableCell className={style.cell2}>초청 강사 강의</TableCell>
+                            <TableCell className={style.cell1}>14:00 ~ 14:45</TableCell>
+                            <TableCell className={style.cell2}>Keynote Speech - 조상준 전무</TableCell>
                             </TableRow>
                             <TableRow key="5">
-                            <TableCell className={style.cell1}>15:30 ~ 17:00</TableCell>
-                            <TableCell className={style.cell2}>Key Note Speech &<br/> 조별 토의</TableCell>
+                            <TableCell className={style.cell1}>14:45 ~ 15:00</TableCell>
+                            <TableCell className={style.cell2}>휴식</TableCell>
                             </TableRow>
                             <TableRow key="6">
-                            <TableCell className={style.cell1}>17:30 ~ 19:00</TableCell>
-                            <TableCell className={style.cell2}>팀빌딩 레크레이션</TableCell>
+                            <TableCell className={style.cell1}>15:00 ~ 15:45</TableCell>
+                            <TableCell className={style.cell2}>Invited Talk - 한국표준과학연구원 김경중 박사</TableCell>
                             </TableRow>
                             <TableRow key="7">
-                            <TableCell className={style.cell1}>19:00 ~ </TableCell>
-                            <TableCell className={style.cell2}>자유시간</TableCell>
+                            <TableCell className={style.cell1}>15:45 ~ 17:15</TableCell>
+                            <TableCell className={style.cell2}>팀빌딩 레크레이션</TableCell>
+                            </TableRow>
+                            <TableRow key="8">
+                            <TableCell className={style.cell1}>17:15 ~ 19:00</TableCell>
+                            <TableCell className={style.cell2}>Group Discussion - 조별 과제 토의 및 발표</TableCell>
                             </TableRow>
                         </TableBody>
                     </Table>
@@ -101,12 +105,12 @@ export default function Programs() {
                         </TableHeader>
                         <TableBody>
                             <TableRow key="1">
-                                <TableCell className={style.cell1}>9:00 ~ 10:30</TableCell>
-                                <TableCell className={style.cell2}>기상및 짐 정리(단체사진)</TableCell>
+                                <TableCell className={style.cell1}>9:00 ~ 10:00</TableCell>
+                                <TableCell className={style.cell2}>아침식사</TableCell>
                             </TableRow>
                             <TableRow key="2">
-                                <TableCell className={style.cell1}>10:30 ~ </TableCell>
-                                <TableCell className={style.cell2}>귀가</TableCell>
+                                <TableCell className={style.cell1}>10:00 ~ 11:00</TableCell>
+                                <TableCell className={style.cell2}>부서 협업 증진을 위한 2024 액션플랜 도출 및 선포, 단체 사진</TableCell>
                             </TableRow>
                             {/* Add more rows for Day 2 schedule */}
                         </TableBody>
