@@ -72,7 +72,7 @@ export default function Programs() {
                             </TableRow>
                             <TableRow key="6">
                             <TableCell className={style.cell1}>15:00 ~ 15:45</TableCell>
-                            <TableCell className={style.cell2}>Invited Talk - 한국표준과학연구원 김경중 박사</TableCell>
+                            <TableCell className={style.cell2}>Invited Talk - TBU</TableCell>
                             </TableRow>
                             <TableRow key="7">
                             <TableCell className={style.cell1}>15:45 ~ 17:15</TableCell>
