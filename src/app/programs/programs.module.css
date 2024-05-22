@@ -53,12 +53,16 @@
 .tableHeadColumn{
     font-size: 8px;
     margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid;
 }
 .cell1{
     font-size: 15px;
     text-align: center;
     padding-right: 5px;
-    border-right: 1px solid ;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    
     
 }
 
@@ -67,7 +71,8 @@
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-    
+    width: 100%;
+    border-bottom: 1px solid;
 }
 .scheduleContainer button:hover{
     cursor: pointer;

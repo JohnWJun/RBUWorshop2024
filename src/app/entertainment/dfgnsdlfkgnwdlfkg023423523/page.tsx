@@ -117,7 +117,7 @@ export default function Mission3() {
                </form>
               
               
-            {isCorrect ? (<MissionSuccessPage mission='퀴즈첼린지' point={50} />) : null}
+            {isCorrect ? (<MissionSuccessPage mission='퀴즈챌린지' point={50} />) : null}
             {isInCorrect ? (<MissionFailPage setIsInCorrect={setIsInCorrect}/>): null}
             </div>
         </div>

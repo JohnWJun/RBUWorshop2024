@@ -19,13 +19,13 @@ export default function Entertainment() {
     
     useEffect(() => {
     setMission0ClearPoint(Number(localStorage.getItem('히든미션 파키의 선물')) || 0);
-     setMission1ClearPoint(Number(localStorage.getItem('틱톡첼린지')) || 0);
-     setMission2ClearPoint(Number(localStorage.getItem('도플갱어첼린지')) || 0);
-     setMission3ClearPoint(Number(localStorage.getItem('퀴즈첼린지')) || 0);
-     setMission4ClearPoint(Number(localStorage.getItem('뮤직왕첼린지')) || 0);
-     setMission5ClearPoint(Number(localStorage.getItem('어느별첼린지')) || 0);
-     setMission6ClearPoint(Number(localStorage.getItem('트릭샷첼린지')) || 0);
-     setMission7ClearPoint(Number(localStorage.getItem('모두의 모드 첼린지')) || 0);
+     setMission1ClearPoint(Number(localStorage.getItem('틱톡챌린지')) || 0);
+     setMission2ClearPoint(Number(localStorage.getItem('도플갱어챌린지')) || 0);
+     setMission3ClearPoint(Number(localStorage.getItem('퀴즈챌린지')) || 0);
+     setMission4ClearPoint(Number(localStorage.getItem('뮤직왕챌린지')) || 0);
+     setMission5ClearPoint(Number(localStorage.getItem('어느별챌린지')) || 0);
+     setMission6ClearPoint(Number(localStorage.getItem('트릭샷챌린지')) || 0);
+     setMission7ClearPoint(Number(localStorage.getItem('모두의 모드 챌린지')) || 0);
     }, []);
    
     let total = (
@@ -177,7 +177,7 @@ export default function Entertainment() {
             
             <div className={style.bodyComponents}>
             <h3>Mission 2</h3>
-            <h2>도플갱어 첼린지 (문제당 5점)</h2>
+            <h2>도플갱어 챌린지 (문제당 5점)</h2>
             <h5>사진의 주인공을 보시고 영화 또는 드라마제목을 최대한 많이 맞춰주세요.</h5>     
             </div>
             </>
@@ -219,7 +219,7 @@ export default function Entertainment() {
             
             <div className={style.bodyComponents}>
             <h3>Mission 4</h3>
-            <h2>뮤직왕 첼린지 (문제당 5점)</h2>
+            <h2>뮤직왕 챌린지 (문제당 5점)</h2>
             <h5>제한시간안에 TTS 음성 가사만 듣고 어떤 노래인지 최대한 많이 맞춰주세요.</h5>     
             </div>
             </>
@@ -241,7 +241,7 @@ export default function Entertainment() {
             
             <div className={style.bodyComponents}>
             <h3 style={{color: 'red'}}>Mission 5 (필수미션)</h3>
-            <h2>넌 어느별에서 왔니? 첼린지 (문제당 5점)</h2>
+            <h2>넌 어느별에서 왔니? 챌린지 (문제당 5점)</h2>
             <h5>제한시간안에 분리된 이목구비만 보고 누구인지 맞춰 주세요.</h5>     
             </div>
             </>
@@ -263,7 +263,7 @@ export default function Entertainment() {
             
             <div className={style.bodyComponents}>
             <h3>Mission 6</h3>
-            <h2>트릭샷 첼린지 (30점 / 최대 50점)</h2>
+            <h2>트릭샷 챌린지 (30점 / 최대 50점)</h2>
             <h5>제시된 포즈 중 하나 선택해서 사진을 찍고 인스타그램에 업로드하면 미션 성공!</h5>     
             </div>
             </>
@@ -285,7 +285,7 @@ export default function Entertainment() {
             
             <div className={style.bodyComponents}>
             <h3 style={{color: 'red'}}>Mission 7 (필수미션)</h3>
-            <h2>모두의 모드 첼린지 (80점)</h2>
+            <h2>모두의 모드 챌린지 (80점)</h2>
             <h5>AFM 기본 지식 테스트, 십자말풀이!</h5>     
             </div>
             </>

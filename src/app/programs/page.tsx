@@ -82,6 +82,10 @@ export default function Programs() {
                             <TableCell className={style.cell1}>17:15 ~ 19:00</TableCell>
                             <TableCell className={style.cell2}>Group Discussion - 조별 과제 토의 및 발표</TableCell>
                             </TableRow>
+                            <TableRow key="9">
+                            <TableCell className={style.cell1}>10:00 ~ 21:00</TableCell>
+                            <TableCell className={style.cell2}>저녁식사(무아레 리조트)</TableCell>
+                            </TableRow>
                         </TableBody>
                     </Table>
                 </div>
@@ -111,6 +115,10 @@ export default function Programs() {
                             <TableRow key="2">
                                 <TableCell className={style.cell1}>10:00 ~ 11:00</TableCell>
                                 <TableCell className={style.cell2}>부서 협업 증진을 위한 2024 액션플랜 도출 및 선포, 단체 사진</TableCell>
+                            </TableRow>
+                            <TableRow key="3">
+                                <TableCell className={style.cell1}>12:00 ~</TableCell>
+                                <TableCell className={style.cell2}>개별 팀빌딩</TableCell>
                             </TableRow>
                             {/* Add more rows for Day 2 schedule */}
                         </TableBody>

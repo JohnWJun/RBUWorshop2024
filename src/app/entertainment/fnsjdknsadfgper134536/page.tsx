@@ -37,7 +37,7 @@ export default function Mission6() {
                <br/>
                
                
-               <h5>트릭샷 첼린지 Option 1 (보너스 점수 +20)</h5>
+               <h5>트릭샷 챌린지 Option 1 (보너스 점수 +20)</h5>
                <div  className={style.videoBox}>
                <Image
                     src="/trickShot1.jpg"
@@ -48,7 +48,7 @@ export default function Mission6() {
                     />
                </div>
               
-               <h5>트릭샷 첼린지 Option 2 (보너스 점수 +20)</h5>
+               <h5>트릭샷 챌린지 Option 2 (보너스 점수 +20)</h5>
                 <div  className={style.videoBox}>
                 <Image
                     src="/trickShot2.jpg"
@@ -60,7 +60,7 @@ export default function Mission6() {
                </div>
                <br/>
                <br/>
-               <h5>트릭샷 첼린지 Option 3 (보너스 점수 +10)</h5>
+               <h5>트릭샷 챌린지 Option 3 (보너스 점수 +10)</h5>
                 <div  className={style.videoBox}>
                 <Image
                     src="/trickShot3.jpg"
@@ -72,7 +72,7 @@ export default function Mission6() {
                </div>
                <br/>
                <br/>
-               <h5>트릭샷 첼린지 Option 4 (보너스 점수 +20)</h5>
+               <h5>트릭샷 챌린지 Option 4 (보너스 점수 +20)</h5>
                 <div  className={style.videoBox}>
                 <Image
                     src="/trickShot4.jpg"
@@ -84,7 +84,7 @@ export default function Mission6() {
                </div>
                <br/>
                <br/>
-               <h5>트릭샷 첼린지 Option 5 (보너스 점수 +0)</h5>
+               <h5>트릭샷 챌린지 Option 5 (보너스 점수 +0)</h5>
                 <div  className={style.videoBox}>
                 <Image
                     src="/trickShot5.jpg"
@@ -96,13 +96,13 @@ export default function Mission6() {
                </div>
                <br/>
                <br/>
-               <h5>트릭샷 첼린지 Option 6</h5>
+               <h5>트릭샷 챌린지 Option 6</h5>
                <h4>RBU 글자 만들기!</h4>
             
             
-                {key1 === 'cvjnmyjw54$$@30' ? (<MissionSuccessPage mission='트릭샷첼린지' point={30} />) : null}
-                {key1 === 'cvjnmyjw54$$@40' ? (<MissionSuccessPage mission='트릭샷첼린지' point={40} />) : null}
-                {key1 === 'cvjnmyjw54$$@50' ? (<MissionSuccessPage mission='트릭샷첼린지' point={50} />) : null}
+                {key1 === 'cvjnmyjw54$$@30' ? (<MissionSuccessPage mission='트릭샷챌린지' point={30} />) : null}
+                {key1 === 'cvjnmyjw54$$@40' ? (<MissionSuccessPage mission='트릭샷챌린지' point={40} />) : null}
+                {key1 === 'cvjnmyjw54$$@50' ? (<MissionSuccessPage mission='트릭샷챌린지' point={50} />) : null}
                 
             </div>
         </div>
