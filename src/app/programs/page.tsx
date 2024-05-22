@@ -64,7 +64,7 @@ export default function Programs() {
                             </TableRow>
                             <TableRow key="4">
                             <TableCell className={style.cell1}>14:00 ~ 14:45</TableCell>
-                            <TableCell className={style.cell2}>Keynote Speech - 조상준 전무</TableCell>
+                            <TableCell className={style.cell2}>Keynote Speech - 조상준 전무님</TableCell>
                             </TableRow>
                             <TableRow key="5">
                             <TableCell className={style.cell1}>14:45 ~ 15:00</TableCell>
