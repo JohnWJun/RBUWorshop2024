@@ -429,7 +429,7 @@ export default function Mission7() {
         <div className={style.main}>
             <div className={style.mission}>
             
-                <h3>모두의 모드 첼린지</h3>
+                <h3>모두의 모드 챌린지</h3>
                 <h5>각종 Mode들을 포함한 파크인이라면 알아야할 AFM기초 지식을 테스트하며 십자말 풀이를 완성하면 미션 성공! </h5>
                 <br/>
                 <h5>해당 라인을 올바로 채우면 빨간 칸들이 초록 칸들로 바뀝니다. 모든 글자가 정답일 경우에만 성공 페이지가 열립니다. (대문자 소문자 상관 X)</h5>
@@ -732,7 +732,7 @@ export default function Mission7() {
             
                </div> */}
                
-            {success ? (<MissionSuccessPage mission='모두의 모드 첼린지' point={80} />) : null}
+            {success ? (<MissionSuccessPage mission='모두의 모드 챌린지' point={80} />) : null}
             </div>
         </div>
         </>
