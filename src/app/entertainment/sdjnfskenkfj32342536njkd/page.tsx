@@ -62,6 +62,7 @@ export default function Mission1() {
                 </form>
                </div>
             {key1 === 'jsx20453@' ? (<MissionSuccessPage mission='틱톡챌린지' point={50} />) : null}
+            {key1 === 'jsx20453@2' ? (<MissionSuccessPage mission='틱톡챌린지' point={90} />) : null}
             </div>
         </div>
         </>
