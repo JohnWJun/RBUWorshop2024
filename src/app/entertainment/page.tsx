@@ -68,7 +68,7 @@ export default function Entertainment() {
 
                 <div className={style.group}>
                 <h5>Team B</h5>
-                양경득, 이주엽, 정다워, 지영지, 정동환(임시 조장), Yaya Wagatsuma (PSJ)
+                양경득, 이주엽, 정다워, 지영지, 정동환(임시 조장), Yaya Wagatsuma(PSJ)
                 </div>
 
                 <div className={style.group}>
