@@ -133,7 +133,7 @@ export default function Entertainment() {
 
                 
             </div>
-            <h3>총 획득한 점수: {total}점</h3>
+            <h3>총 획득한 점수: <span style={{color: "#f70776", fontWeight: '1000'}}> {total}</span>점</h3>
             {!mission0ClearPoint ? (<>
             
             <div className={style.bodyComponents}>
