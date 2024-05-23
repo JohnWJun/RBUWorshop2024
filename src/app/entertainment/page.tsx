@@ -20,7 +20,7 @@ export default function Entertainment() {
     useEffect(() => {
     setMission0ClearPoint(Number(localStorage.getItem('히든미션 파키의 선물')) || 0);
      setMission1ClearPoint(Number(localStorage.getItem('틱톡챌린지')) || 0);
-     setMission2ClearPoint(Number(localStorage.getItem('도플갱어챌린지')) || 0);
+     setMission2ClearPoint(Number(localStorage.getItem('도플갱어 챌린지')) || 0);
      setMission3ClearPoint(Number(localStorage.getItem('퀴즈챌린지')) || 0);
      setMission4ClearPoint(Number(localStorage.getItem('뮤직왕챌린지')) || 0);
      setMission5ClearPoint(Number(localStorage.getItem('어느별챌린지')) || 0);

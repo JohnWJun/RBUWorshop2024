@@ -28,20 +28,20 @@ export default function Mission2() {
                 <input name={"passcode"} value={key1} onChange={onChangeKey1} placeholder={'패스코드를 입력하세요'}></input>
             
                </div>
-            {key1 === 'bvsdfg3367%1' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={5} />) : null}
-            {key1 === 'bvsdfg3367%2' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={10} />) : null}
-            {key1 === 'bvsdfg3367%3' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={15} />) : null}
-            {key1 === 'bvsdfg3367%4' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={20} />) : null}
-            {key1 === 'bvsdfg3367%5' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={25} />) : null}
-            {key1 === 'bvsdfg3367%6' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={30} />) : null}
-            {key1 === 'bvsdfg3367%7' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={35} />) : null}
-            {key1 === 'bvsdfg3367%8' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={40} />) : null}
-            {key1 === 'bvsdfg3367%9' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={45} />) : null}
-            {key1 === 'bvsdfg3367%10' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={50} />) : null}
-            {key1 === 'bvsdfg3367%a' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={55} />) : null}
-            {key1 === 'bvsdfg3367%b' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={60} />) : null}
-            {key1 === 'bvsdfg3367%c' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={65} />) : null}
-            {key1 === 'bvsdfg3367%d' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={70} />) : null}
+            {key1 === 'bvsdfg3367%1' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={5} />) : null}
+            {key1 === 'bvsdfg3367%2' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={10} />) : null}
+            {key1 === 'bvsdfg3367%3' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={15} />) : null}
+            {key1 === 'bvsdfg3367%4' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={20} />) : null}
+            {key1 === 'bvsdfg3367%5' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={25} />) : null}
+            {key1 === 'bvsdfg3367%6' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={30} />) : null}
+            {key1 === 'bvsdfg3367%7' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={35} />) : null}
+            {key1 === 'bvsdfg3367%8' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={40} />) : null}
+            {key1 === 'bvsdfg3367%9' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={45} />) : null}
+            {key1 === 'bvsdfg3367%10' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={50} />) : null}
+            {key1 === 'bvsdfg3367%a' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={55} />) : null}
+            {key1 === 'bvsdfg3367%b' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={60} />) : null}
+            {key1 === 'bvsdfg3367%c' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={65} />) : null}
+            {key1 === 'bvsdfg3367%d' ? (<MissionSuccessPage mission='도플갱어 챌린지' point={70} />) : null}
             
             </div>
         </div>
