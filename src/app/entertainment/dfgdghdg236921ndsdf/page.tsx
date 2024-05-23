@@ -38,10 +38,10 @@ export default function Mission2() {
             {key1 === 'bvsdfg3367%8' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={40} />) : null}
             {key1 === 'bvsdfg3367%9' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={45} />) : null}
             {key1 === 'bvsdfg3367%10' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={50} />) : null}
-            {key1 === 'bvsdfg3367%11' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={55} />) : null}
-            {key1 === 'bvsdfg3367%12' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={60} />) : null}
-            {key1 === 'bvsdfg3367%13' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={65} />) : null}
-            {key1 === 'bvsdfg3367%14' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={70} />) : null}
+            {key1 === 'bvsdfg3367%a' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={55} />) : null}
+            {key1 === 'bvsdfg3367%b' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={60} />) : null}
+            {key1 === 'bvsdfg3367%c' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={65} />) : null}
+            {key1 === 'bvsdfg3367%d' ? (<MissionSuccessPage mission='도플겡어 챌린지' point={70} />) : null}
             
             </div>
         </div>
