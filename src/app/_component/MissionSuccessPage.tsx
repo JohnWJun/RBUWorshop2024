@@ -38,7 +38,13 @@ export default function MissionSuccessPage({mission,point}:Props){
                     </button>
                 </div>
                     <div className={style.modalBody}>
-
+                    <Image
+                    src="/parky.svg"
+                    alt="parky"
+                    width={80}
+                    height={80}
+                    priority
+                    />  
                     <h1>
                         {mission} 미션 클리어!
                     </h1>
@@ -47,7 +53,7 @@ export default function MissionSuccessPage({mission,point}:Props){
                          <br/>포인트 획득!<br/>
                     </h2>
                     <h2>
-                         <br/>팀장님께서는 해당 페이지를 스크린 캡쳐하여 저장해주세요.<br/>
+                         <br/>Team Building 메뉴에서 획득한 점수를 확인하세요.<br/>
                     </h2>
                     </div>
                     </div>

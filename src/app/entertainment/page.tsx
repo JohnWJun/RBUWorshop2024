@@ -144,10 +144,23 @@ export default function Entertainment() {
             </>
             ):(<>
                 
-            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
-            <h3>히든 미션</h3>
+            <div style={{backgroundColor: '#bbe4e9', fontWeight: '1000', padding:'15px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <div className={style.missionHeader}>
+            <h3>히든 미션</h3> 
+            <div >    
+                <Image
+                src="/success.png"
+                alt="success"
+                width={50}
+                height={50}
+                priority
+                />  
+            </div>
+            </div>
+            <div className={style.missionBody}> 
             <h2 >Clear! 획득 점수: {mission0ClearPoint}</h2>
-            <h5>찾았다! 파키의 선물!</h5>     
+            <h5>찾았다! 파키의 선물!</h5> 
+            </div>   
             </div>
             </>
                 )}
@@ -162,12 +175,26 @@ export default function Entertainment() {
             </div>
             </>
             ):(<>
-                
-            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            
+            <div style={{backgroundColor: '#bbe4e9', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <div className={style.missionHeader}>
             <h3>Mission 1</h3>
+            <div >    
+                <Image
+                src="/success.png"
+                alt="success"
+                width={50}
+                height={50}
+                priority
+                />  
+            </div>
+            </div>
+            <div className={style.missionBody}>   
             <h2 >Clear! 획득 점수: {mission1ClearPoint}</h2>
             <h5>도전하고자 하는 댄스 영상을 선택, 인스타그램에 업로드 후 진행요원에게 도전 성공 여부를 심사받으세요.</h5>     
             </div>
+            </div>
+            
             </>
                 )}
             <br/>
@@ -182,12 +209,25 @@ export default function Entertainment() {
             </div>
             </>
             ):(<>
-                
-            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+              
+            <div style={{backgroundColor: '#bbe4e9', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <div className={style.missionHeader}> 
             <h3>Mission 2</h3>
+            <div >    
+                <Image
+                src="/success.png"
+                alt="success"
+                width={50}
+                height={50}
+                priority
+                />  
+            </div>
+            </div>
+            <div className={style.missionBody}>
             <h2 >Clear! 획득 점수: {mission2ClearPoint}</h2>
             <h5>사진의 주인공을 보시고 영화 또는 드라마제목을 최대한 많이 맞춰주세요.</h5>     
             </div>
+            </div> 
             </>
                 )}
             <br/>
@@ -202,11 +242,25 @@ export default function Entertainment() {
             </div>
             </>
             ):(<>
-                
-            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+             
+            <div style={{backgroundColor: '#bbe4e9', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <div className={style.missionHeader}>  
             <h3>Mission 3 (필수미션)</h3>
+            <div >    
+                <Image
+                src="/success.png"
+                alt="success"
+                width={50}
+                height={50}
+                priority
+                />  
+            </div>
+            </div> 
+
+            <div className={style.missionBody}>
             <h2 >Clear! 획득 점수: {mission3ClearPoint}</h2>
             <h5>앞에 들었던 강의를 떠올리며 팀원과 상의하여 Quiz 5문제를 풀고 모두 맞추면 미션 성공!</h5>     
+            </div>
             </div>
             </>
                 )}
@@ -224,11 +278,25 @@ export default function Entertainment() {
             </div>
             </>
             ):(<>
-                
-            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+              
+            <div style={{backgroundColor: '#bbe4e9', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <div className={style.missionHeader}> 
             <h3>Mission 4</h3>
+            <div >    
+                <Image
+                src="/success.png"
+                alt="success"
+                width={50}
+                height={50}
+                priority
+                />  
+            </div>
+            </div> 
+
+            <div className={style.missionBody}>
             <h2 >Clear! 획득 점수: {mission4ClearPoint}</h2>
             <h5>제한시간안에 TTS 음성 가사만 듣고 어떤 노래인지 최대한 많이 맞춰주세요.</h5>     
+            </div>
             </div>
             </>
                 )}
@@ -246,11 +314,26 @@ export default function Entertainment() {
             </div>
             </>
             ):(<>
-                
-            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+             
+             
+            <div style={{backgroundColor: '#bbe4e9', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <div className={style.missionHeader}>
             <h3>Mission 5 (필수미션)</h3>
+            <div >    
+                <Image
+                src="/success.png"
+                alt="success"
+                width={50}
+                height={50}
+                priority
+                />  
+            </div>
+            </div> 
+            
+            <div className={style.missionBody}>
             <h2 >Clear! 획득 점수: {mission5ClearPoint}</h2>
             <h5>제한시간안에 분리된 이목구비만 보고 누구인지 맞춰 주세요.</h5>     
+            </div>
             </div>
             </>
                 )}
@@ -268,11 +351,24 @@ export default function Entertainment() {
             </div>
             </>
             ):(<>
-                
-            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            
+            <div style={{backgroundColor: '#bbe4e9', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <div className={style.missionHeader}>
             <h3>Mission 6</h3>
+            <div >    
+                <Image
+                src="/success.png"
+                alt="success"
+                width={50}
+                height={50}
+                priority
+                />  
+            </div>
+            </div>
+            <div className={style.missionBody}>
             <h2 >Clear! 획득 점수: {mission6ClearPoint}</h2>
             <h5>제시된 포즈 중 하나 선택해서 사진을 찍고 인스타그램에 업로드하면 미션 성공!</h5>     
+            </div>
             </div>
             </>
                 )}
@@ -290,11 +386,24 @@ export default function Entertainment() {
             </div>
             </>
             ):(<>
-                
-            <div style={{backgroundColor: 'green', color:'white', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+             
+            <div style={{backgroundColor: '#bbe4e9', fontWeight: '1000', padding:'10px', borderRadius: '20px'}} className={style.bodyComponents}>
+            <div className={style.missionHeader}>
             <h3>Mission 7 (필수미션)</h3>
+            <div >    
+                <Image
+                src="/success.png"
+                alt="success"
+                width={50}
+                height={50}
+                priority
+                />  
+            </div>
+            </div>   
+            <div className={style.missionBody}>
             <h2 >Clear! 획득 점수: {mission7ClearPoint}</h2>
             <h5>AFM 기본 지식 테스트, 십자말풀이!</h5>     
+            </div>
             </div>
             </>
                 )}

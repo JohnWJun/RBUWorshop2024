@@ -58,7 +58,7 @@ export default function Location() {
                 <br/>
                     
             </div>
-            <h3>무아레리조트</h3>
+            <h3>무아레 리조트</h3>
             <div className={style.bodyComponents}>
                 <Link href="https://naver.me/GxN87aDp">
                 <strong>주소:</strong> 경기 가평군 청평면 북한강로1636번길 34
