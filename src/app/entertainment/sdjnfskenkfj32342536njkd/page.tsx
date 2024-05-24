@@ -27,7 +27,7 @@ export default function Mission1() {
                 <br/>
                 <form>
                 <button>
-                <Link href='https://parkafm.sharepoint.com/:f:/r/sites/RBU/Shared%20Documents/General/2022%20RBU%20Workshop/2022%20%EB%A0%88%ED%81%AC%EB%A0%88%EC%9D%B4%EC%85%98/%ED%8B%B1%ED%86%A1%EC%B1%8C%EB%A6%B0%EC%A7%80?csf=1&web=1&e=DNRFK4'>제출하기</Link>
+                <Link href='https://parkafm.sharepoint.com/:f:/s/RBU/Ek20fG3FhGFKjqqqVtSgI_EBPVCXtm6BebgQqCEYs40cTg?e=Xj8e88'>제출하기</Link>
                 </button>
                </form>
                <div className={style.passcode}>
