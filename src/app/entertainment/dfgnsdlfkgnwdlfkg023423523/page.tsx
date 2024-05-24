@@ -87,7 +87,7 @@ export default function Mission3() {
                <h5>Quiz 3</h5>
                 <div  className={style.videoBox}>
                 <h5>3 (첨단 연구장비는 _________를 여는 핵심열쇠) 문장의 빈칸을 완성 하시오</h5>
-                <h5>1.차세대 나노기술의 미래 <br/>2.차세대 연구 기술의 미래 <br/>3.차세대 과학기술의 미래 <br/>4. 차세대 우주기술의 미래 </h5>
+                <h5>1.차세대 나노기술의 미래 <br/>2.차세대 연구기술의 미래 <br/>3.차세대 과학기술의 미래 <br/>4. 차세대 우주기술의 미래 </h5>
                 <div className={style.passcode}>
                 <input name={"Q3"} value={key3} onChange={onChangeKey3} placeholder={'정답을 입력하세요'}></input>
             
@@ -110,7 +110,7 @@ export default function Mission3() {
                <br/>
                <h5>Quiz 5</h5>
                 <div  className={style.videoBox}>
-                <h5>5. 다음중 연구장비 사업부 조직 미션 달성을 위협하는 Challenger/고민으로 언급되지 않은것은?</h5>
+                <h5>5. 다음중 연구장비 사업부 조직 미션 달성을 위협하는 Challenges/고민으로 언급되지 않은것은?</h5>
                 <h5>1.기술 리더쉽 & 인지도 부족 <br/>2.전쟁 및 세계 정세 <br/>3.브루커 및 옥스포드를 포함한 경쟁사들 <br/>4.Opinion Leader들의 목소리 </h5>
                 <div className={style.passcode}>
                 <input name={"Q5"} value={key5} onChange={onChangeKey5} placeholder={'정답을 입력하세요'}></input>
